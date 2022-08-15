@@ -1,5 +1,5 @@
 {
-  "name": "akai-cod",
+  "name": "akai-code",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,8 @@
     "eslint": "eslint --ext .ts,.tsx pages/",
     "eslint:fix": "eslint --fix --ext .ts,.tsx pages/",
     "stylelint": "stylelint \"**/*.{css,scss}\"",
-    "stylelint:fix": "stylelint \"**/*.{css,scss}\" --fix"
+    "stylelint:fix": "stylelint \"**/*.{css,scss}\" --fix",
+    "export": "next export -o build"
   },
   "dependencies": {
     "next": "12.2.5",
