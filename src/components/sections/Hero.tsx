@@ -5,7 +5,7 @@ export function Hero() {
   const { t } = useTranslation();
 
   return (
-    <div className="container">
+    <div>
       <h1>{t("hero.title")}</h1>
       <LocaleSwitcher />
     </div>
