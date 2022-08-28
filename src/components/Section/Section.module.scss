@@ -1,9 +1,12 @@
 .wrapper {
   width: 100%;
-  background: var(--color-white);
-  color: var(--color-black);
 
-  &:nth-child(even) {
+  &.white {
+    background: var(--color-white);
+    color: var(--color-black);
+  }
+
+  &.blue {
     color: var(--color-white);
     background: var(--color-blue);
     position: relative;
