@@ -1,8 +1,8 @@
 import React from "react";
 import { useRouter } from "next/router";
-import { isLocale, Localization, Locale } from "../types";
-import translations from "../locales";
-import { defaultLocale } from "../config";
+import { defaultLocale } from "translations/config";
+import translations from "translations/locales";
+import { Localization, isLocale, Locale } from "translations/types";
 
 interface ContextProps {
   readonly localization: Localization;

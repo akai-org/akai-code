@@ -29,4 +29,25 @@
   --space-xl: 32px;
   --space-xxl: 64px;
   --space-xxxl: 128px;
+
+  /* ----- section ----- */
+  --section-max-width: 1120px;
+  --section-spacing-vertical: 128px;
+  --section-spacing-horizontal: 64px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    /* ----- section ----- */
+    --section-spacing-vertical: 96px;
+    --section-spacing-horizontal: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    /* ----- section ----- */
+    --section-spacing-vertical: 64px;
+    --section-spacing-horizontal: 32px;
+  }
 }
