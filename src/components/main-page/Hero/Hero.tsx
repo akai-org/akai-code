@@ -1,4 +1,4 @@
-import { Section } from "components/Section/Section";
+import { Section } from "components/ui/Section/Section";
 import LocaleSwitcher from "translations/components/LanguageSwitcher";
 import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Hero.module.scss";

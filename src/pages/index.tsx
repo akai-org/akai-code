@@ -1,7 +1,7 @@
 import React from "react";
 import { GetStaticProps, NextPage } from "next";
 import { Localization } from "translations/types";
-import { Index } from "main-page/Index";
+import { Index } from "components/main-page/Index";
 import { getLocalizationProps } from "translations/context/LanguageContext";
 
 const IndexPage: NextPage<{
