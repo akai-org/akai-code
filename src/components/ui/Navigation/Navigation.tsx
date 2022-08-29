@@ -1,19 +1,22 @@
 import classNames from "classnames";
 import { Section } from "components/main-page/types";
 import { useEffect, useRef, useState } from "react";
+import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Navigation.module.scss";
 
-type SectionConfig = { name: string; url: `#${Section}`; hidden?: boolean };
+type SectionConfig = { key: string; url: `#${Section}`; hidden?: boolean };
 const sections: readonly SectionConfig[] = [
-  { name: "Hero", url: "#hero", hidden: true },
-  { name: "AKAI Code'22", url: "#event-details" },
-  { name: "Registration", url: "#registration" },
+  { key: "hero", url: "#hero", hidden: true },
+  { key: "akaiCode", url: "#event-details" },
+  { key: "registration", url: "#registration" },
 ] as const;
 
 export function Navigation() {
   const [activeSection, setActiveSection] = useState<string | undefined>(
     undefined,
   );
+
+  const { t } = useTranslation();
 
   const checkboxRef = useRef<HTMLInputElement | null>(null);
 
@@ -68,7 +71,7 @@ export function Navigation() {
           <ul className={styles.links}>
             {sections
               .filter(({ hidden }) => !hidden)
-              .map(({ name, url }) => (
+              .map(({ key, url }) => (
                 <li key={url}>
                   <a
                     href={url}
@@ -77,7 +80,7 @@ export function Navigation() {
                     })}
                     onClick={deselectNavigation}
                   >
-                    {name}
+                    {t(`navigation.${key}`)}
                   </a>
                 </li>
               ))}
