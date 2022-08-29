@@ -11,8 +11,9 @@
     "comment-no-empty": true,
     "max-nesting-depth": 3,
     "selector-pseudo-class-no-unknown": true,
-    "unit-allowed-list": ["px", "rem", "%", "vh", "vw"],
-    "selector-class-pattern": null
+    "unit-allowed-list": ["px", "rem", "%", "vh", "vw", "s", "deg"],
+    "selector-class-pattern": null,
+    "at-rule-no-unknown": null
   },
   "ignoreFiles": ["build/**/*.css"]
 }
