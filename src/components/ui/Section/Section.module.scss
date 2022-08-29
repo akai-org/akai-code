@@ -21,6 +21,7 @@
 
     &::before {
       @extend %wrapperBackground;
+
       background: var(--color-blue) url("../../../assets/circle-pattern.svg");
       background-repeat: repeat-y;
       background-position: 50% 0;
@@ -30,6 +31,7 @@
 
     &::after {
       @extend %wrapperBackground;
+
       background: var(--color-blue);
       z-index: -2;
     }
