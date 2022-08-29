@@ -1,17 +1,17 @@
 :root {
   /* ----- typography ----- */
-  --h1-font-size: 4rem;
-  --h2-font-size: 3rem;
-  --h3-font-size: 2.25rem;
-  --h4-font-size: 1.5rem;
-  --paragraph-font-size: 1.25rem;
+  --xxl-font-size: 4rem;
+  --xl-font-size: 3rem;
+  --l-font-size: 2.25rem;
+  --m-font-size: 1.5rem;
+  --s-font-size: 1.25rem;
 
   /* ----- line-height ----- */
-  --h1-line-height: 4.75rem;
-  --h2-line-height: 3.6rem;
-  --h3-line-height: 2.7rem;
-  --h4-line-height: 1.75rem;
-  --paragraph-line-height: 1.5rem;
+  --xxl-line-height: 4.75rem;
+  --xl-line-height: 3.6rem;
+  --l-line-height: 2.7rem;
+  --m-line-height: 1.75rem;
+  --s-line-height: 1.5rem;
 
   /* ----- colors ----- */
   --color-orange: #f6a721;
@@ -27,8 +27,10 @@
   --space-m: 16px;
   --space-l: 24px;
   --space-xl: 32px;
-  --space-xxl: 64px;
-  --space-xxxl: 128px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+  --space-5xl: 128px;
 
   /* ----- section ----- */
   --section-max-width: 1120px;
