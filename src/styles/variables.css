@@ -36,6 +36,12 @@
   --section-max-width: 1120px;
   --section-spacing-vertical: 128px;
   --section-spacing-horizontal: 64px;
+
+  /* ----- navbar ----- */
+  --navbar-height: 96px;
+  --navbar-logo-size: 64px;
+  --navbar-padding-vertical: 16px;
+  --navbar-padding-horizontal: 64px;
 }
 
 @media (max-width: 1024px) {
@@ -43,6 +49,11 @@
     /* ----- section ----- */
     --section-spacing-vertical: 96px;
     --section-spacing-horizontal: 48px;
+    --navbar-padding-horizontal: 48px;
+    --navbar-hamburger-size: 40px;
+    --navbar-hamburger-bottom-bar-top-position: 14px;
+    --navbar-hamburger-top-bar-top-position: -16px;
+    --navbar-hamburger-bar-height: 4px;
   }
 }
 
@@ -51,5 +62,15 @@
     /* ----- section ----- */
     --section-spacing-vertical: 64px;
     --section-spacing-horizontal: 32px;
+
+    /* ----- navbar ----- */
+    --navbar-height: 64px;
+    --navbar-logo-size: 48px;
+    --navbar-padding-vertical: 8px;
+    --navbar-padding-horizontal: 32px;
+    --navbar-hamburger-size: 32px;
+    --navbar-hamburger-bottom-bar-top-position: 10px;
+    --navbar-hamburger-top-bar-top-position: -12px;
+    --navbar-hamburger-bar-height: 3px;
   }
 }
