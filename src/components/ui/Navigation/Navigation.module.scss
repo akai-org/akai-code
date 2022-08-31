@@ -72,17 +72,13 @@
   position: relative;
   display: block;
   height: var(--navbar-hamburger-bar-height);
-  transition:
-    transform 0.2s ease-out 0s,
-    background-color 0.2s ease-out 0.2s,
+  transition: transform 0.2s ease-out 0s, background-color 0.2s ease-out 0.2s,
     top 0.2s ease-out 0.3s;
   width: var(--navbar-hamburger-size);
 }
 
 %hamburgerTriggerBarChecked {
-  transition:
-    top 0.2s ease-out 0s,
-    background-color 0s ease 0.2s,
+  transition: top 0.2s ease-out 0s, background-color 0s ease 0.2s,
     transform 0.2s ease-out 0.3s;
 }
 
@@ -135,7 +131,7 @@
     &::after {
       @extend %hamburgerTriggerBarChecked;
 
-      top: -2px;
+      top: var(--navbar-hamburger-top-bar-opened-top-position);
       transform: rotate(-45deg);
     }
   }
