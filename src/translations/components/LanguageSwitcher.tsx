@@ -1,7 +1,7 @@
 import React from "react";
-import { locales } from "../config";
-import useTranslation from "../hooks/useTranslations";
 import Link from "next/link";
+import useTranslation from "translations/hooks/useTranslations";
+import { locales } from "translations/config";
 
 const LocaleSwitcher: React.FC = () => {
   const { t } = useTranslation();

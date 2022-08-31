@@ -1,5 +1,5 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
-import { Index } from "../../components/sections/Index";
+import { Index } from "../../components/main-page/Index";
 import { locales } from "../../translations/config";
 import { getLocalizationProps } from "../../translations/context/LanguageContext";
 import { Localization } from "../../translations/types";

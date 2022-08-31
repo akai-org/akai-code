@@ -1,4 +1,4 @@
-import { Hero } from "./Hero";
+import { Hero } from "./Hero/Hero";
 
 export function Index() {
   // put other sections here...
