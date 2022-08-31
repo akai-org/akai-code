@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode, useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import { defaultLocale } from "translations/config";
 import translations from "translations/locales";
@@ -17,32 +17,42 @@ export const LanguageContext = React.createContext<ContextProps>({
   setLocale: () => null,
 });
 
-export const LanguageProvider: React.FC<{
-  localization: Localization;
-  children: React.ReactNode;
-}> = ({ localization, children }) => {
-  const [localizationState, setLocalizationState] = React.useState({
-    locale: localization?.locale,
-    translations: localization?.translations,
+const defaultLocalization = {
+  locale: defaultLocale,
+  translations: translations[defaultLocale],
+};
+
+type Props = {
+  children: ReactNode;
+  localization?: Localization;
+};
+
+export const LanguageProvider = ({
+  localization = defaultLocalization,
+  children,
+}: Props) => {
+  const [localizationState, setLocalizationState] = useState({
+    locale: localization.locale,
+    translations: localization.translations,
   });
   const { query } = useRouter();
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (
       typeof query.lang === "string" &&
       isLocale(query.lang) &&
-      localization?.locale !== query.lang
+      localization.locale !== query.lang
     ) {
       setLocalizationState({
-        locale: localization?.locale,
-        translations: localization?.translations,
+        locale: localization.locale,
+        translations: localization.translations,
       });
     }
   }, [
     query.lang,
     localizationState,
-    localization?.locale,
-    localization?.translations,
+    localization.locale,
+    localization.translations,
   ]);
 
   return (

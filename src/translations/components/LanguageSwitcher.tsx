@@ -3,7 +3,7 @@ import Link from "next/link";
 import useTranslation from "translations/hooks/useTranslations";
 import { locales } from "translations/config";
 
-const LocaleSwitcher: React.FC = () => {
+const LocaleSwitcher = () => {
   const { t } = useTranslation();
 
   return (
