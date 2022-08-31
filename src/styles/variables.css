@@ -42,6 +42,10 @@
   --navbar-logo-size: 64px;
   --navbar-padding-vertical: 16px;
   --navbar-padding-horizontal: 64px;
+
+  /* ----- badge ----- */
+  --badge-sm-height: 64px;
+  --badge-normal-height: 96px;
 }
 
 @media (max-width: 1024px) {

@@ -1,4 +1,5 @@
 import { Heading, Section, Text } from "components/ui";
+import { Badge } from "components/ui/Badge/Badge";
 import LocaleSwitcher from "translations/components/LanguageSwitcher";
 import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Hero.module.scss";
@@ -15,6 +16,7 @@ export function Hero() {
         quod ipsum illum qui eaque.
       </Text>
       <LocaleSwitcher />
+      <Badge color="secondary">Registration</Badge>
     </Section>
   );
 }

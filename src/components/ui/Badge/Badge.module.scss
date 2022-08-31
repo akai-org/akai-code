@@ -1,0 +1,30 @@
+.badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-orange);
+  text-transform: uppercase;
+  font-weight: bold;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.sm {
+  height: var(--badge-sm-height);
+  padding: 0 var(--space-m);
+  font-size: var(--l-font-size);
+}
+
+.normal {
+  height: var(--badge-normal-height);
+  padding: 0 var(--space-l);
+  font-size: var(--xl-font-size);
+}
+
+.primary {
+  background-color: var(--color-orange);
+}
+
+.secondary {
+  background-color: var(--color-blue-light);
+}
