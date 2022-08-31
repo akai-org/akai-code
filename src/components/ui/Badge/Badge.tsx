@@ -33,17 +33,18 @@ export function Badge({
         </a>
       </Link>
     );
+  } else {
+    return (
+      <p
+        className={classNames(
+          styles.badge,
+          styles[size],
+          styles[color],
+          className,
+        )}
+      >
+        {children}
+      </p>
+    );
   }
-  return (
-    <p
-      className={classNames(
-        styles.badge,
-        styles[size],
-        styles[color],
-        className,
-      )}
-    >
-      {children}
-    </p>
-  );
 }
