@@ -1,0 +1,11 @@
+.heading {
+  margin-bottom: var(--space-2xl);
+}
+
+.text {
+  text-align: justify;
+
+  & + & {
+    margin-top: var(--space-l);
+  }
+}

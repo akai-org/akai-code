@@ -49,6 +49,8 @@
     /* ----- section ----- */
     --section-spacing-vertical: 96px;
     --section-spacing-horizontal: 48px;
+
+    /* ----- navbar ----- */
     --navbar-padding-horizontal: 48px;
     --navbar-hamburger-size: 40px;
     --navbar-hamburger-bottom-bar-top-position: 14px;
