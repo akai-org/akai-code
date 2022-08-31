@@ -131,7 +131,7 @@
     &::after {
       @extend %hamburgerTriggerBarChecked;
 
-      top: var(--navbar-hamburger-top-bar-opened-top-position);
+      top: -2px;
       transform: rotate(-45deg);
     }
   }
