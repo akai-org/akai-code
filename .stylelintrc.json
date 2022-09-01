@@ -13,7 +13,9 @@
     "selector-pseudo-class-no-unknown": true,
     "unit-allowed-list": ["px", "rem", "%", "vh", "vw", "s", "deg"],
     "selector-class-pattern": null,
-    "at-rule-no-unknown": null
+    "at-rule-no-unknown": null,
+    "declaration-colon-newline-after": null,
+    "value-list-comma-newline-after": null
   },
   "ignoreFiles": ["build/**/*.css"]
 }
