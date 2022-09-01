@@ -61,6 +61,7 @@
     --navbar-hamburger-bottom-bar-top-position: 14px;
     --navbar-hamburger-top-bar-top-position: -16px;
     --navbar-hamburger-bar-height: 4px;
+    --navbar-hamburger-top-bar-opened-top-position: -4px;
   }
 }
 
@@ -79,5 +80,6 @@
     --navbar-hamburger-bottom-bar-top-position: 10px;
     --navbar-hamburger-top-bar-top-position: -12px;
     --navbar-hamburger-bar-height: 3px;
+    --navbar-hamburger-top-bar-opened-top-position: -3px;
   }
 }

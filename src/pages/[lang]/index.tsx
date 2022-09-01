@@ -6,7 +6,7 @@ import { Localization } from "../../translations/types";
 
 const IndexPage: NextPage<{
   localization: Localization;
-}> = ({}) => <Index />;
+}> = () => <Index />;
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const localization = getLocalizationProps(ctx);

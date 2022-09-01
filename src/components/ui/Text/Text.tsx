@@ -1,9 +1,9 @@
-import * as React from "react";
+import React, { ReactNode } from "react";
 import classNames from "classnames";
 import styles from "./Text.module.scss";
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   size?: "xxl" | "xl" | "l" | "m" | "s";
   className?: string;
 };

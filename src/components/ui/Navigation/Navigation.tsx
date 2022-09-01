@@ -1,6 +1,6 @@
+import React, { useEffect, useRef, useState } from "react";
 import classNames from "classnames";
 import { Section } from "components/main-page/types";
-import { useEffect, useRef, useState } from "react";
 import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Navigation.module.scss";
 

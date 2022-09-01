@@ -1,9 +1,9 @@
-import * as React from "react";
+import { ReactNode } from "react";
 import classNames from "classnames";
 import styles from "./Heading.module.scss";
 
 type Props = {
-  children: React.ReactNode;
+  children: ReactNode;
   size?: "xxl" | "xl" | "l" | "m" | "s";
   as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   className?: string;
