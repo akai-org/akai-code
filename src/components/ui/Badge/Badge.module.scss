@@ -2,11 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-orange);
   text-transform: uppercase;
   font-weight: bold;
   width: fit-content;
-  border-radius: 8px;
+  border-radius: var(--border-radius-default);
 }
 
 .sm {

@@ -32,6 +32,9 @@
   --space-4xl: 96px;
   --space-5xl: 128px;
 
+  /* ----- border ----- */
+  --border-radius-default: 8px;
+
   /* ----- section ----- */
   --section-max-width: 1120px;
   --section-spacing-vertical: 128px;
