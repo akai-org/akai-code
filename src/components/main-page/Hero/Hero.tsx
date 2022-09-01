@@ -8,7 +8,9 @@ export function Hero() {
 
   return (
     <Section variant="blue" id="hero" className={styles.section}>
-      <Heading withAccent>{t("hero.title")}</Heading>
+      <Heading className={styles.heading} withAccent>
+        {t("hero.title")}
+      </Heading>
       <Text>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis id
         quas quod inventore ipsa. Neque eligendi minus praesentium dolorum fuga
