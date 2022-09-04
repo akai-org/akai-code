@@ -6,7 +6,7 @@ export function EventDetails() {
   const { t } = useTranslation();
 
   return (
-    <Section id="event-details">
+    <Section id="event-details" className={styles.section}>
       <Heading className={styles.heading} withAccent>
         {t("eventDetails.title")}
       </Heading>
