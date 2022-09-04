@@ -11,13 +11,13 @@
 .sm {
   height: var(--badge-sm-height);
   padding: 0 var(--space-m);
-  font-size: var(--l-font-size);
+  font-size: var(--font-size-l);
 }
 
 .normal {
   height: var(--badge-normal-height);
   padding: 0 var(--space-l);
-  font-size: var(--xl-font-size);
+  font-size: var(--font-size-xl);
 }
 
 .primary {

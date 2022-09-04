@@ -4,7 +4,7 @@ import styles from "./Heading.module.scss";
 
 type Props = {
   children: ReactNode;
-  size?: "xxl" | "xl" | "l" | "m" | "s";
+  size?: "3xl" | "2xl" | "xl" | "l" | "m" | "s";
   as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
   className?: string;
   withAccent?: boolean;
@@ -19,7 +19,9 @@ export function Heading({
 }: Props) {
   const Component = as;
   return (
-    <Component className={classNames(styles.heading, styles[size], className)}>
+    <Component
+      className={classNames(styles.heading, styles[`size-${size}`], className)}
+    >
       {withAccent ? (
         <span className={styles.accent}>{children}</span>
       ) : (

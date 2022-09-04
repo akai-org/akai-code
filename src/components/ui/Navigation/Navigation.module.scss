@@ -54,7 +54,7 @@
 .link {
   text-decoration: none;
   color: var(--color-black);
-  font-size: var(--l-font-size);
+  font-size: var(--font-size-l);
   transition: 0.25s color ease-in-out;
 
   &:hover,
@@ -162,6 +162,6 @@
   }
 
   .link {
-    font-size: var(--s-font-size);
+    font-size: var(--font-size-s);
   }
 }

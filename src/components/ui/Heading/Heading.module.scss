@@ -2,29 +2,28 @@
   color: inherit;
 }
 
-.xxl {
-  font-size: var(--xxl-font-size);
-  line-height: var(--xxl-line-height);
+.size-3xl {
+  font-size: var(--font-size-3xl);
 }
 
-.xl {
-  font-size: var(--xl-font-size);
-  line-height: var(--xl-line-height);
+.size-2xl {
+  font-size: var(--font-size-2xl);
 }
 
-.l {
-  font-size: var(--l-font-size);
-  line-height: var(--l-line-height);
+.size-xl {
+  font-size: var(--font-size-xl);
 }
 
-.m {
-  font-size: var(--m-font-size);
-  line-height: var(--m-line-height);
+.size-l {
+  font-size: var(--font-size-l);
 }
 
-.s {
-  font-size: var(--s-font-size);
-  line-height: var(--s-line-height);
+.size-m {
+  font-size: var(--font-size-m);
+}
+
+.size-s {
+  font-size: var(--font-size-s);
 }
 
 .accent {
