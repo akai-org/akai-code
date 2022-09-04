@@ -1,3 +1,7 @@
+.heading {
+  margin-bottom: var(--space-2xl);
+}
+
 .section {
   margin-top: var(--navbar-height);
   height: calc(100vh - var(--navbar-height));

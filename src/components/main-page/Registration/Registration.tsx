@@ -1,12 +1,15 @@
 import { Heading, Section, Text } from "components/ui";
 import useTranslation from "translations/hooks/useTranslations";
+import styles from "./Registration.module.scss";
 
 export function Registration() {
   const { t } = useTranslation();
 
   return (
     <Section variant="blue" id="registration">
-      <Heading withAccent>{t("hero.title")}</Heading>
+      <Heading className={styles.heading} withAccent>
+        {t("hero.title")}
+      </Heading>
       <Text>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
         commodi nulla obcaecati aliquid assumenda? Ut assumenda qui aspernatur
