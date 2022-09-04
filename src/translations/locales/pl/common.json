@@ -1,14 +1,14 @@
 {
   "hero": {
-    "title": "AKAI Code '22 - PL"
+    "title": "AKAI Code - PL"
   },
   "navigation": {
-    "akaiCode": "AKAI Code'22",
+    "akaiCode": "AKAI Code",
     "registration": "Rejestracja"
   },
   "eventDetails": {
-    "title": "AKAI Code '22",
-    "description1": "Pierwsza edycja Hackatonu AKAICode organizaowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbywa się na Politechnice Poznańskiej.",
+    "title": "AKAI Code",
+    "description1": "Pierwsza edycja Hackatonu AKAI Code organizowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbywa się na Politechnice Poznańskiej.",
     "description2": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez 24 godziny aplikację nawiązującą do tematu, a następnie jury decydują która drużyna wygra.",
     "description3": "Konkurować można w trzech kategoriach - najlepszy pomysł, najlepszy prototyp i najlepsza zastosowana technologia. Jaki będzie temat? Tego dowiecie się już wkrótce!"
   }

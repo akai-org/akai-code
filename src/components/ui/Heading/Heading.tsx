@@ -12,7 +12,7 @@ type Props = {
 
 export function Heading({
   children,
-  size = "xl",
+  size = "2xl",
   as = "h2",
   className,
   withAccent = false,

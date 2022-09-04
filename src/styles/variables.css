@@ -3,7 +3,7 @@
   --font-size-s: 1rem;
   --font-size-m: 1.25rem;
   --font-size-l: 1.5rem;
-  --font-size-xl: 2.25rem;
+  --font-size-xl: 2rem;
   --font-size-2xl: 3rem;
   --font-size-3xl: 4rem;
 
@@ -31,8 +31,11 @@
 
   /* ----- section ----- */
   --section-max-width: 1120px;
-  --section-spacing-vertical: 128px;
+  --section-spacing-vertical: 64px;
   --section-spacing-horizontal: 64px;
+
+  /* ----- title ----- */
+  --title-spacing: var(--font-size-xl);
 
   /* ----- navbar ----- */
   --navbar-height: 96px;
@@ -48,34 +51,37 @@
 @media (max-width: 1024px) {
   :root {
     /* ----- section ----- */
-    --section-spacing-vertical: 96px;
+    --section-spacing-vertical: 64px;
     --section-spacing-horizontal: 48px;
 
     /* ----- navbar ----- */
     --navbar-padding-horizontal: 48px;
-    --navbar-hamburger-size: 40px;
+    --navbar-hamburger-size: 48px;
     --navbar-hamburger-bottom-bar-top-position: 14px;
-    --navbar-hamburger-top-bar-top-position: -16px;
-    --navbar-hamburger-bar-height: 4px;
-    --navbar-hamburger-top-bar-opened-top-position: -4px;
+    --navbar-hamburger-top-bar-top-position: -20px;
+    --navbar-hamburger-bar-height: 6px;
+    --navbar-hamburger-top-bar-opened-top-position: -6px;
   }
 }
 
 @media (max-width: 480px) {
   :root {
     /* ----- section ----- */
-    --section-spacing-vertical: 64px;
+    --section-spacing-vertical: 48px;
     --section-spacing-horizontal: 32px;
+
+    /* ----- title ----- */
+    --title-spacing: var(--font-size-l);
 
     /* ----- navbar ----- */
     --navbar-height: 64px;
     --navbar-logo-size: 48px;
     --navbar-padding-vertical: 8px;
-    --navbar-padding-horizontal: 32px;
+    --navbar-padding-horizontal: 16px;
     --navbar-hamburger-size: 32px;
-    --navbar-hamburger-bottom-bar-top-position: 10px;
-    --navbar-hamburger-top-bar-top-position: -12px;
-    --navbar-hamburger-bar-height: 3px;
-    --navbar-hamburger-top-bar-opened-top-position: -3px;
+    --navbar-hamburger-bottom-bar-top-position: 12px;
+    --navbar-hamburger-top-bar-top-position: -16px;
+    --navbar-hamburger-bar-height: 4px;
+    --navbar-hamburger-top-bar-opened-top-position: -4px;
   }
 }

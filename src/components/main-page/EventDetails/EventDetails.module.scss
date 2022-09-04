@@ -1,11 +1,11 @@
 .heading {
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--title-spacing);
 }
 
 .text {
   text-align: justify;
 
   & + & {
-    margin-top: var(--space-l);
+    margin-top: var(--space-m);
   }
 }

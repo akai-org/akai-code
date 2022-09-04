@@ -44,7 +44,7 @@ export function Navigation() {
       },
       {
         threshold: 0.5,
-        rootMargin: "-15% 0px -15%",
+        rootMargin: "-25% 0px -25%",
       },
     );
     sections.forEach((section) => sectionObserver.observe(section));
