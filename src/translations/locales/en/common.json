@@ -1,10 +1,15 @@
 {
-  "hero": {
-    "title": "AKAI Code - EN"
-  },
   "navigation": {
     "akaiCode": "AKAI Code",
     "registration": "Registration"
+  },
+  "hero": {
+    "title": "AKAI Code",
+    "subtitle": "Stationary hackathon",
+    "offline": "Offline",
+    "date": "04-05.11.2022",
+    "city": "Poznań",
+    "place": "Centrum Wykładowe Politechniki Poznańskiej, Kampus Piotrowo"
   },
   "eventDetails": {
     "title": "AKAI Code",

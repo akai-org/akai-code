@@ -9,32 +9,32 @@
 
 .wrapper {
   width: 100%;
+}
 
-  &.white {
-    background: var(--color-white);
-    color: var(--color-black);
+.white {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.blue {
+  color: var(--color-white);
+  position: relative;
+
+  &::before {
+    @extend %wrapperBackground;
+
+    background: var(--color-blue) url("../../../assets/circle-pattern.svg");
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    opacity: 0.1;
+    z-index: -1;
   }
 
-  &.blue {
-    color: var(--color-white);
-    position: relative;
+  &::after {
+    @extend %wrapperBackground;
 
-    &::before {
-      @extend %wrapperBackground;
-
-      background: var(--color-blue) url("../../../assets/circle-pattern.svg");
-      background-repeat: repeat-y;
-      background-position: 50% 0;
-      opacity: 0.1;
-      z-index: -1;
-    }
-
-    &::after {
-      @extend %wrapperBackground;
-
-      background: var(--color-blue);
-      z-index: -2;
-    }
+    background: var(--color-blue);
+    z-index: -2;
   }
 }
 

@@ -6,18 +6,8 @@
   font-weight: bold;
   width: fit-content;
   border-radius: var(--border-radius-default);
-}
-
-.sm {
-  height: var(--badge-sm-height);
-  padding: 0 var(--space-m);
-  font-size: var(--font-size-l);
-}
-
-.normal {
-  height: var(--badge-normal-height);
-  padding: 0 var(--space-l);
-  font-size: var(--font-size-xl);
+  padding: var(--space-s) var(--space-m);
+  font-size: var(--space-xl);
 }
 
 .primary {
