@@ -51,7 +51,7 @@ export function Navigation() {
       // TODO: it may require to fine-tune the threshold for mobile breakpoints
       // in which some sections are larger, hence threhold needs to be lowered
       {
-        threshold: 0.5,
+        threshold: 0.6,
         rootMargin: "-25% 0px -25%",
       },
     );

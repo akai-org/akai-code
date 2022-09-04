@@ -1,5 +1,4 @@
-import { Heading, Section, Text } from "components/ui";
-import { Badge } from "components/ui/Badge/Badge";
+import { Heading, Section, Text, Badge } from "components/ui";
 import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Hero.module.scss";
 
