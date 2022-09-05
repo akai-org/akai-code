@@ -1,0 +1,11 @@
+{
+  "title": "AKAI Code",
+  "short_name": "AKAI Code",
+  "name": "AKAI Code",
+  "description": "AKAI Code",
+  "start_url": "/",
+  "background_color": "#03628A",
+  "theme_color": "#03628A",
+  "display": "standalone",
+  "manifest_version": 1
+}
