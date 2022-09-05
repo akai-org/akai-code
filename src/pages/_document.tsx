@@ -5,10 +5,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
             rel="preconnect"
@@ -16,7 +12,7 @@ class MyDocument extends Document {
             crossOrigin=""
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
             rel="stylesheet"
           />
         </Head>

@@ -1,15 +1,27 @@
 {
-  "hero": {
-    "title": "AKAI Code '22 - PL"
-  },
   "navigation": {
-    "akaiCode": "AKAI Code'22",
+    "akaiCode": "AKAI Code",
     "registration": "Rejestracja"
   },
+  "hero": {
+    "title": "AKAI Code",
+    "subtitle": "Hackathon stacjonarny",
+    "offline": "Offline",
+    "date": "04-05.11.2022",
+    "city": "Poznań",
+    "place": "Centrum Wykładowe Politechniki Poznańskiej, Kampus Piotrowo"
+  },
   "eventDetails": {
-    "title": "AKAI Code '22",
-    "description1": "Pierwsza edycja Hackatonu AKAICode organizaowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbywa się na Politechnice Poznańskiej.",
+    "title": "AKAI Code",
+    "description1": "Pierwsza edycja Hackatonu AKAI Code organizowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbywa się na Politechnice Poznańskiej.",
     "description2": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez 24 godziny aplikację nawiązującą do tematu, a następnie jury decydują która drużyna wygra.",
-    "description3": "Konkurować można w trzech kategoriach - najlepszy pomysł, najlepszy prototyp i najlepsza zastosowana technologia. Jaki będzie temat? Tego dowiecie się już wkrótce!"
+    "description3": "Konkurować można w trzech kategoriach - najlepszy pomysł, najlepszy prototyp i najlepiej zastosowana technologia. Jaki będzie temat? Tego dowiecie się już wkrótce!"
+  },
+  "registration": {
+    "title": "Hackathon startuje za",
+    "days": "dni",
+    "hours": "godz",
+    "minutes": "min",
+    "seconds": "sec"
   }
 }

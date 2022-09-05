@@ -1,15 +1,27 @@
 {
-  "hero": {
-    "title": "AKAI Code '22 - EN"
-  },
   "navigation": {
-    "akaiCode": "AKAI Code'22",
+    "akaiCode": "AKAI Code",
     "registration": "Registration"
   },
+  "hero": {
+    "title": "AKAI Code",
+    "subtitle": "Stationary hackathon",
+    "offline": "Offline",
+    "date": "04-05.11.2022",
+    "city": "Poznań",
+    "place": "Centrum Wykładowe Politechniki Poznańskiej, Kampus Piotrowo"
+  },
   "eventDetails": {
-    "title": "AKAI Code '22",
+    "title": "AKAI Code",
     "description1": "The first edition of the AKAI Code hackathon organized by AKAI - Akademickie Koło Aplikacji Internetowych - takes place at the Poznań University of Technology.",
     "description2": "The idea of an event is simple! You code an application related to the topic within 24 hours, and then the jury decides which team will win.",
     "description3": "There are three categories to compete in - Best Idea, Best Prototype and Best use of technology. What's the topic? You'll find out soon!"
+  },
+  "registration": {
+    "title": "Hackathon starts in",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "mins",
+    "seconds": "secs"
   }
 }

@@ -1,3 +1,17 @@
 .heading {
   margin-bottom: var(--space-2xl);
 }
+
+.section {
+  min-height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &::before {
+    background: var(--color-blue) url("../../../assets/registration.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

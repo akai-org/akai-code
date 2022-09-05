@@ -1,8 +1,84 @@
-.heading {
-  margin-bottom: var(--space-2xl);
+.title {
+  margin-bottom: var(--space-xl);
+}
+
+.subtitle {
+  margin-bottom: var(--space-xl);
+  text-transform: uppercase;
 }
 
 .section {
   margin-top: var(--navbar-height);
-  height: calc(100vh - var(--navbar-height));
+  min-height: calc(100vh - var(--navbar-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &::before {
+    background: var(--color-blue) url("../../../assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoWrapper {
+  display: none;
+}
+
+.badgesContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.badgeWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.badge {
+  margin-bottom: var(--space-xl);
+}
+
+.badgeDescription {
+  max-width: 480px;
+}
+
+// tablet
+@media (min-width: 480px) {
+  .badgesContainer {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .badgeWrapper {
+    flex: 1;
+  }
+}
+
+// desktop
+@media (min-width: 1024px) {
+  .logoWrapper {
+    display: block;
+  }
+
+  .contentWrapper {
+    flex-direction: row;
+    align-items: space-between;
+  }
+
+  .badgeDescription {
+    min-width: 356px;
+  }
 }

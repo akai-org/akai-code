@@ -1,11 +1,16 @@
 .heading {
-  margin-bottom: var(--space-2xl);
+  margin-bottom: var(--title-spacing);
 }
 
 .text {
-  text-align: justify;
+  text-align: center;
 
   & + & {
-    margin-top: var(--space-l);
+    margin-top: var(--space-m);
   }
+}
+
+.section {
+  max-width: 860px;
+  margin: auto;
 }
