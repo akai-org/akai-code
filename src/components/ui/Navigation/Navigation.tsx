@@ -102,6 +102,7 @@ export function Navigation() {
                     className={classNames(styles.link, {
                       [styles.active]: activeLanguage === locale,
                     })}
+                    onClick={deselectNavigation}
                   >
                     {t(`language.${locale}`)}
                   </a>
