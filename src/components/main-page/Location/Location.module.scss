@@ -1,6 +1,7 @@
 .section {
   background-color: var(--color-blue);
 }
+
 .sectionHeading {
   margin-bottom: var(--space-l);
 }
@@ -34,9 +35,11 @@
   min-width: 80px;
   height: 80px;
 }
+
 .content {
   width: 100%;
 }
+
 .textWrapper {
   margin-top: var(--space-l);
   display: flex;
