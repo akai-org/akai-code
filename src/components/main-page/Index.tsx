@@ -2,6 +2,7 @@ import { Hero } from "./Hero/Hero";
 import { EventDetails } from "./EventDetails/EventDetails";
 import { Registration } from "./Registration/Registration";
 import Head from "next/head";
+import { Location } from "./Location/Location";
 
 export function Index() {
   return (
@@ -13,6 +14,7 @@ export function Index() {
       <Hero />
       <EventDetails />
       <Registration />
+      <Location />
     </>
   );
 }
