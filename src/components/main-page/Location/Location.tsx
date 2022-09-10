@@ -20,7 +20,7 @@ export function Location() {
   return (
     <Section variant="blue" id="location" className={styles.section}>
       <Heading className={styles.sectionHeading} withAccent>
-        Location
+        {t("location.title")}
       </Heading>
       <div className={styles.wrapper}>
         <LocationMap />
@@ -32,25 +32,17 @@ export function Location() {
             <div className={styles.headingWrapper}>
               <p className={styles.heading}>
                 <span className={styles.bold}>
-                  Centrum Wykładowe <br></br>Politechniki Poznańskiej<br></br>
+                  {t("location.location1")} <br></br>
+                  {t("location.location2")}
+                  <br></br>
                 </span>
-                Kampus piotrowo, Poznań
+                {t("location.location3")}
               </p>
             </div>
           </div>
           <div className={styles.textWrapper}>
-            <p className={styles.text}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo corrupti tenetur perferendis, voluptatibus accusantium
-              distinctio dolores blanditiis quas, vitae veritatis corporis! Modi
-              sed nostrum commodi.
-            </p>
-            <p className={styles.text}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo corrupti tenetur perferendis, voluptatibus accusantium
-              distinctio dolores blanditiis quas, vitae veritatis corporis! Modi
-              sed nostrum commodi.
-            </p>
+            <p className={styles.text}>{t("location.description1")}</p>
+            <p className={styles.text}>{t("location.description2")}</p>
           </div>
         </div>
       </div>
