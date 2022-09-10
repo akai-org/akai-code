@@ -1,4 +1,4 @@
-import { Heading, Section, Text, Badge, Icon } from "components/ui";
+import { Heading, Section, Icon } from "components/ui";
 import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Location.module.scss";
 import { mapMarker } from "components/ui/Icon";
