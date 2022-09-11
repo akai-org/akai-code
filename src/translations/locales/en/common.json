@@ -9,11 +9,15 @@
     "offline": "Offline",
     "date": "04-05.11.2022",
     "city": "Poznań",
-    "place": "Centrum Wykładowe Politechniki Poznańskiej, Kampus Piotrowo"
+    "place": {
+      "lectureCentre": "Lecture and Conference Centre",
+      "put": "Poznan University of Technology",
+      "piotrowoCampus": "Piotrowo Campus"
+    }
   },
   "eventDetails": {
     "title": "AKAI Code",
-    "description1": "The first edition of the AKAI Code hackathon organized by AKAI - Akademickie Koło Aplikacji Internetowych - takes place at the Poznań University of Technology.",
+    "description1": "The first edition of the AKAI Code hackathon organized by AKAI - Academic Web Application Research Group - takes place at the Poznań University of Technology.",
     "description2": "The idea of an event is simple! You code an application related to the topic within 24 hours, and then the jury decides which team will win.",
     "description3": "There are three categories to compete in - Best Idea, Best Prototype and Best use of technology. What's the topic? You'll find out soon!"
   },
@@ -23,5 +27,9 @@
     "hours": "hours",
     "minutes": "mins",
     "seconds": "secs"
+  },
+  "footer": {
+    "contact": "Contact",
+    "akai": "AKAI - Academic Web Application Research Group"
   }
 }
