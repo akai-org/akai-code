@@ -9,7 +9,11 @@
     "offline": "Offline",
     "date": "04-05.11.2022",
     "city": "Poznań",
-    "place": "Lecture Center of the Poznań University of Technology, Piotrowo Campus"
+    "place": {
+      "lectureCentre": "Lecture and Conference Centre",
+      "put": "Poznan University of Technology",
+      "piotrowoCampus": "Piotrowo Campus"
+    }
   },
   "eventDetails": {
     "title": "AKAI Code",
