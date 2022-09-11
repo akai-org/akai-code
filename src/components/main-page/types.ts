@@ -1,1 +1,1 @@
-export type Section = "hero" | "event-details" | "registration";
+export type Section = "hero" | "event-details" | "registration" | "location";
