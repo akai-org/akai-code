@@ -30,13 +30,9 @@ export function Location() {
               <Icon className={styles.icon} icon={mapMarker} />
             </div>
             <div className={styles.headingWrapper}>
-              <p className={styles.heading}>
-                <span className={styles.bold}>
-                  <p>{t("location.location1")}</p>
-                  <p>{t("location.location2")}</p>
-                </span>
-                {t("location.location3")}
-              </p>
+              <p className={styles.bold}>{t("location.location1")}</p>
+              <p className={styles.bold}>{t("location.location2")}</p>
+              <p>{t("location.location3")}</p>
             </div>
           </div>
           <div className={styles.textWrapper}>
