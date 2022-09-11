@@ -26,7 +26,8 @@
     "days": "days",
     "hours": "hours",
     "minutes": "mins",
-    "seconds": "secs"
+    "seconds": "secs",
+    "registration": "Registration"
   },
   "location": {
     "title": "Location",
