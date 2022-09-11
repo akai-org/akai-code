@@ -1,5 +1,6 @@
 import { facebook, github, linkedin, twitter } from "../Icon";
 import { Icon } from "components/ui";
+import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Footer.module.scss";
 
 const socialIcons = [
@@ -26,6 +27,8 @@ const socialIcons = [
 ] as const;
 
 export function Footer({}) {
+  const { t } = useTranslation();
+
   return (
     <footer className={styles.container}>
       <div className={styles.innerContainer}>
@@ -49,10 +52,10 @@ export function Footer({}) {
         </div>
         <div className={styles.row}>
           <p>
-            Kontakt:{" "}
+            {t("footer.contact")}:{" "}
             <a href="mailto:kontakt@akai.org.pl">kontakt@akai.org.pl</a>
           </p>
-          <p>&copy; 2022 Akademickie Koło Aplikacji Internetowych</p>
+          <p>&copy; 2022 {t("footer.akai")}</p>
         </div>
       </div>
     </footer>
