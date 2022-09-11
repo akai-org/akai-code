@@ -1,9 +1,8 @@
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
-import styles from "./LocationMap.module.scss";
-import { LatLngExpression } from "leaflet";
+import { LatLngExpression, Icon } from "leaflet";
 import markerIconPng from "leaflet/dist/images/marker-icon.png";
-import { Icon } from "leaflet";
+import styles from "./LocationMap.module.scss";
+import "leaflet/dist/leaflet.css";
 
 const position: LatLngExpression = [52.404556560532235, 16.949742396468974];
 
@@ -26,7 +25,7 @@ const LocationMap = () => {
             iconUrl: markerIconPng.src,
           })
         }
-      ></Marker>
+      />
     </MapContainer>
   );
 };

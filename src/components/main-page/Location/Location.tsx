@@ -32,9 +32,8 @@ export function Location() {
             <div className={styles.headingWrapper}>
               <p className={styles.heading}>
                 <span className={styles.bold}>
-                  {t("location.location1")} <br></br>
-                  {t("location.location2")}
-                  <br></br>
+                  <p>{t("location.location1")}</p>
+                  <p>{t("location.location2")}</p>
                 </span>
                 {t("location.location3")}
               </p>
