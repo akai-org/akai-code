@@ -1,7 +1,10 @@
 import dynamic from "next/dynamic";
-import { Heading, Section } from "components/ui";
+import { Heading, Section, Button } from "components/ui";
 import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Registration.module.scss";
+
+const registrationFormURL =
+  "https://samorzad.put.poznan.pl/akai-rejestracja-zespolu";
 
 const HackathonTimer = dynamic(
   () =>
@@ -22,6 +25,11 @@ export function Registration() {
         {t("registration.title")}
       </Heading>
       <HackathonTimer />
+      <div className={styles.linksContainer}>
+        <Button href={registrationFormURL}>
+          {t("registration.registration")}
+        </Button>
+      </div>
     </Section>
   );
 }

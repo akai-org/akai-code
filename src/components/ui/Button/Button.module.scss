@@ -1,0 +1,31 @@
+.button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  color: var(--color-white);
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 28px;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  padding: var(--space-s) var(--space-l);
+  transition: background-color ease-in-out 0.25s;
+}
+
+.primary {
+  background-color: var(--color-orange);
+
+  &:hover,
+  &:active {
+    background-color: var(--color-orange-dark);
+  }
+}
+
+.discord {
+  background-color: var(--color-discord);
+
+  &:hover,
+  &:active {
+    background-color: var(--color-discord-dark);
+  }
+}

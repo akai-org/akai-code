@@ -9,11 +9,14 @@
 
   /* ----- colors ----- */
   --color-orange: #f6a721;
+  --color-orange-dark: #f78923;
   --color-blue: #03628a;
   --color-blue-light: #6daec7;
   --color-white: #fff;
   --color-grey: #d8d8d8;
   --color-black: #282828;
+  --color-discord: #5865f3;
+  --color-discord-dark: #4752c4;
 
   /* ----- spacing ----- */
   --space-xs: 4px;
