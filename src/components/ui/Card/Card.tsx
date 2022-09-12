@@ -17,10 +17,10 @@ export function Card({
 }: CardType) {
   return (
     <div className={classNames(className, styles.card)}>
-      <div className={styles.imageDiv}>
+      <div className={styles.imageContainer}>
         <Image className={styles.image} src={image} alt={name} layout="fill" />
       </div>
-      <div className={styles.textDiv}>
+      <div className={styles.textContainer}>
         <p className={styles.textName}>{name}</p>
         <p className="role">{role}</p>
       </div>
