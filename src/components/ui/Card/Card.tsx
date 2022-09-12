@@ -5,6 +5,7 @@ import classNames from "classnames";
 type CardType = {
   image?: string;
   name: string;
+  company?: string;
   role: string;
   className?: string;
 };
@@ -12,6 +13,7 @@ type CardType = {
 export function Card({
   image = "/images/person.png",
   name,
+  company,
   role,
   className,
 }: CardType) {
@@ -22,7 +24,8 @@ export function Card({
       </div>
       <div className={styles.textContainer}>
         <p className={styles.textName}>{name}</p>
-        <p className="role">{role}</p>
+        {company && <p>{company}</p>}
+        <p className={classNames(company && styles.textCompany)}>{role}</p>
       </div>
     </div>
   );

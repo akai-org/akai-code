@@ -1,6 +1,5 @@
 .card {
   width: var(--card-width);
-  height: var(--card-height);
   box-shadow: 0 2px 8px rgba(0 0 0 / 0.1);
   border-radius: var(--border-radius-default);
 }
@@ -17,7 +16,7 @@
 
 .textContainer {
   display: flex;
-  height: calc(var(--card-height) - var(--card-width));
+  min-height: calc(var(--card-height) - var(--card-width));
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,4 +27,9 @@
 
 .textName {
   font-weight: bold;
+}
+
+.textCompany {
+  font-weight: bold;
+  color: var(--color-orange);
 }
