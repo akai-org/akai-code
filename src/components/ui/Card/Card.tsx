@@ -22,9 +22,9 @@ export function Card({
         <img className={styles.image} src={image} alt={name} />
       </div>
       <div className={styles.textContainer}>
-        <p className={styles.textName}>{name}</p>
+        <p className={styles.mainText}>{name}</p>
         {company && <p>{company}</p>}
-        <p className={classNames(company && styles.textCompany)}>{role}</p>
+        <p className={classNames(company && styles.highlightedText)}>{role}</p>
       </div>
     </div>
   );
