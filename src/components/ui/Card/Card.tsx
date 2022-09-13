@@ -1,5 +1,4 @@
 import styles from "./Card.module.scss";
-import Image from "next/image";
 import classNames from "classnames";
 
 type CardType = {
@@ -20,7 +19,7 @@ export function Card({
   return (
     <div className={classNames(className, styles.card)}>
       <div className={styles.imageContainer}>
-        <Image className={styles.image} src={image} alt={name} layout="fill" />
+        <img className={styles.image} src={image} alt={name} />
       </div>
       <div className={styles.textContainer}>
         <p className={styles.textName}>{name}</p>
