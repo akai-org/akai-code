@@ -9,19 +9,36 @@
     "offline": "Offline",
     "date": "04-05.11.2022",
     "city": "Poznań",
-    "place": "Centrum Wykładowe Politechniki Poznańskiej, Kampus Piotrowo"
+    "place": {
+      "lectureCentre": "Centrum Wykładowe",
+      "put": "Politechniki Poznańskiej",
+      "piotrowoCampus": "Kampus Piotrowo"
+    }
   },
   "eventDetails": {
     "title": "AKAI Code",
-    "description1": "Pierwsza edycja Hackatonu AKAI Code organizowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbywa się na Politechnice Poznańskiej.",
-    "description2": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez 24 godziny aplikację nawiązującą do tematu, a następnie jury decydują która drużyna wygra.",
-    "description3": "Konkurować można w trzech kategoriach - najlepszy pomysł, najlepszy prototyp i najlepiej zastosowana technologia. Jaki będzie temat? Tego dowiecie się już wkrótce!"
+    "description1": "Pierwsza edycja Hackatonu AKAI Code organizowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbędzie się na Politechnice Poznańskiej",
+    "description2": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez 24 godziny aplikację nawiązującą do tematu, a następnie jury decydują, która drużyna wygra.",
+    "description3": "Konkurować można w trzech kategoriach - Najlepszy pomysł, najlepszy prototyp i najlepsza zastosowana technologia (innowacyjność). Jaki będzie temat? Tego dowiecie się już wkrótce!"
   },
   "registration": {
     "title": "Hackathon startuje za",
     "days": "dni",
     "hours": "godz",
     "minutes": "min",
-    "seconds": "sec"
+    "seconds": "sec",
+    "registration": "Rejestracja"
+  },
+  "location": {
+    "title": "Lokalizacja",
+    "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
+    "description2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
+    "location1": "Centrum wykładowe",
+    "location2": "Politechniki Poznańskiej",
+    "location3": "Kampus Piotrowo, Poznań"
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "akai": "AKAI - Akademickie Koło Aplikacji Internetowych"
   }
 }

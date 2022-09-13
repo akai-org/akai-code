@@ -32,9 +32,11 @@ export function Hero() {
               <Badge color="secondary" className={styles.badge}>
                 {t("hero.city")}
               </Badge>
-              <Text size="xl" className={styles.badgeDescription}>
-                {t("hero.place")}
-              </Text>
+              <div className={styles.badgeDescription}>
+                <Text size="xl">{t("hero.place.lectureCentre")}</Text>
+                <Text size="xl">{t("hero.place.put")}</Text>
+                <Text size="xl">{t("hero.place.piotrowoCampus")}</Text>
+              </div>
             </div>
           </div>
         </div>
