@@ -29,6 +29,14 @@
     "seconds": "secs",
     "registration": "Registration"
   },
+  "about": {
+    "title": "About us",
+    "paragraphs": [
+      "The first edition of the AKAI Code hackathon organized by AKAI - Akademickie Koło Aplikacji Internetowych - takes place at the Poznań University of Technology.",
+      "The idea of an event is simple! You code an application related to the topic within 24 hours and then the jury decides which team will win.",
+      "There are three categories to compete in - Best Idea, Best Prototype and Best use of technology. What's the topic? You'll find out soon!"
+    ]
+  },
   "location": {
     "title": "Location",
     "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",

@@ -29,6 +29,14 @@
     "seconds": "sec",
     "registration": "Rejestracja"
   },
+  "about": {
+    "title": "O nas",
+    "paragraphs": [
+      "Pierwsza edycja hackatonu AKAI Code organizowanego przez AKAI - Akademickie Koło Aplikacji Internetowych - ma miejsce na Politechnice Poznańskiej.",
+      "Idea jest prosta! Kodujesz aplikację związaną z tematem konkursu w przeciągu 24 godzin a jury decydują, który zespół wygra.",
+      "Są trzy kategorie, w których możesz rywalizować - Najlepszy pomysł, Najlepszy prototyp oraz Najlepsze użycie technologii. Jaki jest temat? Dowiecie się już wkrótce!"
+    ]
+  },
   "location": {
     "title": "Lokalizacja",
     "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
