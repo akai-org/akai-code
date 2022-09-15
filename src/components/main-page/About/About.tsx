@@ -1,9 +1,6 @@
 import * as React from "react";
-// import classNames from "classnames";
 import styles from "./About.module.scss";
 import { Section, Heading, Text, Card } from "components/ui";
-
-// type Props = {};
 
 export function About() {
   return (
