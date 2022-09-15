@@ -8,7 +8,9 @@ export function toFlatPropertyMap(obj: object, keySeparator = ".") {
       const property = parentProperty
         ? `${parentProperty}${keySeparator}${key}`
         : key;
-      if (value && typeof value === "object") {
+      if (value && value instanceof Array) {
+        propertyMap[property] = value;
+      } else if (value && typeof value === "object") {
         flattenRecursive(value, property, propertyMap);
       } else {
         propertyMap[property] = value;
