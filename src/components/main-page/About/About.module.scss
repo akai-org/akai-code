@@ -4,17 +4,17 @@
   align-items: center;
   justify-content: center;
   justify-items: center;
-  row-gap: 24px;
+  row-gap: var(--space-l);
 }
 
 .textContainer {
-  margin-top: 24px;
-  margin-bottom: 32px;
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-xl);
 }
 
 .textField {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: var(--space-m);
 }
 
 .textField:last-of-type {
@@ -25,13 +25,12 @@
 @media (min-width: 480px) {
   .cardContainer {
     grid-template-columns: repeat(2, var(--card-width));
-    column-gap: 48px;
-    row-gap: 48px;
+    gap: var(--space-2xl) var(--space-2xl);
   }
 
   .textContainer {
-    margin-top: 32px;
-    margin-bottom: 48px;
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-2xl);
   }
 }
 
