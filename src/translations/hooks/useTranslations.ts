@@ -4,7 +4,7 @@ import { LanguageContext } from "translations/context/LanguageContext";
 export default function useTranslation() {
   const { localization } = useContext(LanguageContext);
 
-  function t(key: string) {
+  function t(key: string): string | string[] {
     if (!localization.translations[key]) {
       console.warn(
         `Translation '${key}' for locale '${localization.locale}' not found.`,
