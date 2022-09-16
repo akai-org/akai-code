@@ -1,0 +1,26 @@
+.cardContainer {
+  display: grid;
+  margin-top: var(--space-2xl);
+  grid-template-columns: repeat(1, var(--card-width));
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  row-gap: var(--space-l);
+  color: var(--color-black);
+}
+
+// tablet
+@media (min-width: 480px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, var(--card-width));
+    gap: var(--space-2xl) var(--space-2xl);
+  }
+}
+
+// desktop
+@media (min-width: 1024px) {
+  .cardContainer {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0;
+  }
+}
