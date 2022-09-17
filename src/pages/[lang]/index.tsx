@@ -9,9 +9,9 @@ const IndexPage: NextPage<{
 }> = () => <Index />;
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
-  const localization = getLocalizationProps(ctx);
+  const { locale, translations } = getLocalizationProps(ctx);
   return {
-    props: { localization },
+    props: { locale, translations },
   };
 };
 

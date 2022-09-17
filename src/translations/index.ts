@@ -4,7 +4,7 @@ import en from "./locales/en.json";
 import pl from "./locales/pl.json";
 import common from "./locales/common.json";
 
-const translations = {
+export const translations = {
   pl: { ...pl, ...common },
   en: { ...en, ...common },
 };
