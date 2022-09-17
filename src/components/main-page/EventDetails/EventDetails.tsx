@@ -1,9 +1,9 @@
 import { Heading, Section, Text } from "components/ui";
-import { useTranslations } from "next-intl";
+import { useTranslation, Trans } from "next-i18next";
 import styles from "./EventDetails.module.scss";
 
 export function EventDetails() {
-  const t = useTranslations();
+  const { t } = useTranslation();
 
   return (
     <Section id="event-details" className={styles.section}>
@@ -11,13 +11,22 @@ export function EventDetails() {
         {t("eventDetails.title")}
       </Heading>
       <Text className={styles.text}>
-        {t.rich("eventDetails.description.main")}
+        <Trans
+          i18nKey="eventDetails.description.main"
+          components={{ b: <b /> }}
+        />
       </Text>
       <Text className={styles.text}>
-        {t.rich("eventDetails.description.idea")}
+        <Trans
+          i18nKey="eventDetails.description.idea"
+          components={{ b: <b /> }}
+        />
       </Text>
       <Text className={styles.text}>
-        {t.rich("eventDetails.description.categories")}
+        <Trans
+          i18nKey="eventDetails.description.categories"
+          components={{ b: <b /> }}
+        />
       </Text>
     </Section>
   );

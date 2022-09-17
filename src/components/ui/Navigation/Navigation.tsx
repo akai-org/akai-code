@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "next-i18next";
 import classNames from "classnames";
 import { Section } from "components/main-page/types";
 import styles from "./Navigation.module.scss";
-import { locales } from "translations/config";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { locales } from "translations";
 
 type SectionConfig = { key: string; url: `#${Section}`; hidden?: boolean };
 const sections: readonly SectionConfig[] = [
@@ -19,7 +19,7 @@ export function Navigation() {
     undefined,
   );
 
-  const t = useTranslations();
+  const { t } = useTranslation();
 
   const { query } = useRouter();
   const activeLanguage = query?.lang === "en" ? "en" : "pl";

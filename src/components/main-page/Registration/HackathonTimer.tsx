@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "next-i18next";
 import dayjs from "dayjs";
 import classNames from "classnames";
 import { Badge, Text } from "components/ui";
@@ -24,7 +24,7 @@ const hackathonStartDate = dayjs("2022-11-04T18:00:00+0200");
 export function HackathonTimer() {
   useIntervalUpdate();
 
-  const t = useTranslations();
+  const { t } = useTranslation();
 
   const now = dayjs();
 

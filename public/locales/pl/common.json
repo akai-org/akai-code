@@ -42,5 +42,9 @@
   "footer": {
     "contact": "Kontakt",
     "akai": "AKAI - Akademickie Koło Aplikacji Internetowych"
+  },
+  "language": {
+    "pl": "PL",
+    "en": "EN"
   }
 }

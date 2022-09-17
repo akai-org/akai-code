@@ -42,5 +42,9 @@
   "footer": {
     "contact": "Contact",
     "akai": "AKAI - Academic Web Application Research Group"
+  },
+  "language": {
+    "pl": "PL",
+    "en": "EN"
   }
 }

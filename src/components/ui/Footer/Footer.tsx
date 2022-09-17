@@ -1,5 +1,5 @@
 import { facebook, github, linkedin, twitter } from "../Icon";
-import { useTranslations } from "next-intl";
+import { useTranslation } from "next-i18next";
 import { Icon } from "components/ui";
 import styles from "./Footer.module.scss";
 
@@ -27,7 +27,7 @@ const socialIcons = [
 ] as const;
 
 export function Footer({}) {
-  const t = useTranslations();
+  const { t } = useTranslation();
 
   return (
     <footer className={styles.container}>
