@@ -8,11 +8,7 @@ function App({ Component, pageProps }: AppProps) {
   const { locale, translations } = pageProps.localization;
 
   return (
-    <NextIntlProvider
-      messages={translations}
-      locale={locale}
-      defaultTranslationValues={{ b: (children) => <b>{children}</b> }}
-    >
+    <NextIntlProvider messages={translations} locale={locale}>
       <Navigation />
       <Component {...pageProps} />
       <Footer />
