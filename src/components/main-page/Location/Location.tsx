@@ -1,8 +1,8 @@
 import { Heading, Section, Icon } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Location.module.scss";
 import { mapMarker } from "components/ui/Icon";
 import dynamic from "next/dynamic";
+import { useTranslations } from "next-intl";
 
 const LocationMap = dynamic(
   () =>
@@ -15,7 +15,7 @@ const LocationMap = dynamic(
 );
 
 export function Location() {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   return (
     <Section variant="blue" id="location" className={styles.section}>

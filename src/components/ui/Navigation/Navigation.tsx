@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
 import classNames from "classnames";
 import { Section } from "components/main-page/types";
-import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Navigation.module.scss";
 import { locales } from "translations/config";
 import Link from "next/link";
@@ -19,7 +19,7 @@ export function Navigation() {
     undefined,
   );
 
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   const { query } = useRouter();
   const activeLanguage = query?.lang === "en" ? "en" : "pl";

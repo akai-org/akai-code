@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 import dayjs from "dayjs";
-import useTranslation from "translations/hooks/useTranslations";
+import classNames from "classnames";
 import { Badge, Text } from "components/ui";
 import styles from "./HackathonTimer.module.scss";
-import classNames from "classnames";
 
 type ConfigItem = {
   unit: "d" | "h" | "m" | "s";
@@ -24,7 +24,7 @@ const hackathonStartDate = dayjs("2022-11-04T18:00:00+0200");
 export function HackathonTimer() {
   useIntervalUpdate();
 
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   const now = dayjs();
 

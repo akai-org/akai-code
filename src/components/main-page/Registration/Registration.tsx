@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
-import { Heading, Section, Button } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslations } from "next-intl";
+import { Button, Heading, Section } from "components/ui";
 import styles from "./Registration.module.scss";
 
 const registrationFormURL =
@@ -17,7 +17,7 @@ const HackathonTimer = dynamic(
 );
 
 export function Registration() {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   return (
     <Section variant="blue" id="registration" className={styles.section}>

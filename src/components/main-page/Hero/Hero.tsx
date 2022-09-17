@@ -1,9 +1,9 @@
 import { Heading, Section, Text, Badge } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslations } from "next-intl";
 import styles from "./Hero.module.scss";
 
 export function Hero() {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   return (
     <Section variant="blue" id="hero" className={styles.section}>

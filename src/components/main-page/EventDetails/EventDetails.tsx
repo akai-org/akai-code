@@ -1,9 +1,9 @@
 import { Heading, Section, Text } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslations } from "next-intl";
 import styles from "./EventDetails.module.scss";
 
 export function EventDetails() {
-  const { t } = useTranslation();
+  const t = useTranslations();
 
   return (
     <Section id="event-details" className={styles.section}>
