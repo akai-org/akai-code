@@ -17,9 +17,11 @@
   },
   "eventDetails": {
     "title": "AKAI Code",
-    "description1": "The first edition of the AKAI Code hackathon organized by AKAI - Academic Web Application Research Group - takes place at the Poznań University of Technology.",
-    "description2": "The idea of an event is simple! You code an application related to the topic within 24 hours, and then the jury decides which team will win.",
-    "description3": "There are three categories to compete in - Best Idea, Best Prototype and Best use of technology. What's the topic? You'll find out soon!"
+    "description": {
+      "main": "The first edition of the <b>AKAI Code</b> hackathon organized by <b>AKAI</b> - Academic Web Application Research Group - takes place at the <b>Poznań University of Technology</b>.",
+      "idea": "The idea of an event is simple! You code an application related to the topic within <b>24 hours</b>, and then the jury decides which team will win.",
+      "categories": "There are <b>three categories</b> to compete in - Best Idea, Best Prototype and Best use of technology. What's the <b>topic</b>? You'll find out soon!"
+    }
   },
   "registration": {
     "title": "Hackathon starts in",

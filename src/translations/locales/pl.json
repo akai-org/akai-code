@@ -17,9 +17,11 @@
   },
   "eventDetails": {
     "title": "AKAI Code",
-    "description1": "Pierwsza edycja Hackatonu AKAI Code organizowana przez AKAI - Akademickie Koło Aplikacji Internetowych - odbędzie się na Politechnice Poznańskiej",
-    "description2": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez 24 godziny aplikację nawiązującą do tematu, a następnie jury decydują, która drużyna wygra.",
-    "description3": "Konkurować można w trzech kategoriach - Najlepszy pomysł, najlepszy prototyp i najlepsza zastosowana technologia (innowacyjność). Jaki będzie temat? Tego dowiecie się już wkrótce!"
+    "description": {
+      "main": "Pierwsza edycja Hackatonu <b>AKAI Code</b> organizowana przez <b>AKAI</b> - Akademickie Koło Aplikacji Internetowych - odbędzie się na <b>Politechnice Poznańskiej</b>",
+      "idea": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez <b>24 godziny</b> aplikację nawiązującą do tematu, a następnie jury decydują, która drużyna wygra.",
+      "categories": "Konkurować można w <b>trzech kategoriach</b> - Najlepszy pomysł, najlepszy prototyp i najlepsza zastosowana technologia (innowacyjność). Jaki będzie <b>temat</b>? Tego dowiecie się już wkrótce!"
+    }
   },
   "registration": {
     "title": "Hackathon startuje za",

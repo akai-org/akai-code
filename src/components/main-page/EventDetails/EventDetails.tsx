@@ -10,9 +10,15 @@ export function EventDetails() {
       <Heading className={styles.heading} withAccent>
         {t("eventDetails.title")}
       </Heading>
-      <Text className={styles.text}>{t("eventDetails.description1")}</Text>
-      <Text className={styles.text}>{t("eventDetails.description2")}</Text>
-      <Text className={styles.text}>{t("eventDetails.description3")}</Text>
+      <Text className={styles.text}>
+        {t.rich("eventDetails.description.main")}
+      </Text>
+      <Text className={styles.text}>
+        {t.rich("eventDetails.description.idea")}
+      </Text>
+      <Text className={styles.text}>
+        {t.rich("eventDetails.description.categories")}
+      </Text>
     </Section>
   );
 }
