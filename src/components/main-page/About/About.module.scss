@@ -15,17 +15,17 @@
 .textField {
   text-align: center;
   margin-bottom: var(--space-m);
-}
 
-.textField:last-of-type {
-  margin-bottom: 0;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
 }
 
 // tablet
 @media (min-width: 480px) {
   .cardContainer {
     grid-template-columns: repeat(2, var(--card-width));
-    gap: var(--space-2xl) var(--space-2xl);
+    gap: var(--space-2xl);
   }
 
   .textContainer {
