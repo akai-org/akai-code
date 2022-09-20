@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
-import { Heading, Section, Button } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslation } from "next-i18next";
+import { Button, Heading, Section } from "components/ui";
 import styles from "./Registration.module.scss";
 
 const registrationFormURL =
@@ -25,7 +25,7 @@ export function Registration() {
         {t("registration.title")}
       </Heading>
       <HackathonTimer />
-      <div className={styles.linksContainer}>
+      <div className={styles.buttonsContainer}>
         <Button href={registrationFormURL}>
           {t("registration.registration")}
         </Button>
