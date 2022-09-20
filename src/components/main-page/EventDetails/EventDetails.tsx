@@ -13,19 +13,19 @@ export function EventDetails() {
       <Text className={styles.text}>
         <Trans
           i18nKey="eventDetails.description.main"
-          components={{ b: <b /> }}
+          components={{ strong: <strong /> }}
         />
       </Text>
       <Text className={styles.text}>
         <Trans
           i18nKey="eventDetails.description.idea"
-          components={{ b: <b /> }}
+          components={{ strong: <strong /> }}
         />
       </Text>
       <Text className={styles.text}>
         <Trans
           i18nKey="eventDetails.description.categories"
-          components={{ b: <b /> }}
+          components={{ strong: <strong /> }}
         />
       </Text>
     </Section>

@@ -25,7 +25,7 @@ export function Registration() {
         {t("registration.title")}
       </Heading>
       <HackathonTimer />
-      <div className={styles.linksContainer}>
+      <div className={styles.buttonsContainer}>
         <Button href={registrationFormURL}>
           {t("registration.registration")}
         </Button>
