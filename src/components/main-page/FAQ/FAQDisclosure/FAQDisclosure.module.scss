@@ -1,0 +1,36 @@
+.buttonBackground {
+  background-color: var(--color-white);
+  border-radius: var(--border-radius-default) var(--border-radius-default) 0 0;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: inherit;
+  font-size: var(--font-size-m);
+  padding: var(--space-m);
+  background-color: var(--color-blue-light);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius-default);
+  cursor: pointer;
+  width: 100%;
+}
+
+.chevron {
+  height: var(--chevron-height);
+  fill: var(--color-white);
+  transform: rotate(0);
+  transition: transform 0.5s ease-out;
+
+  &.open {
+    transform: rotate(180deg);
+  }
+}
+
+.panel {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: var(--space-m);
+  border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
+}
