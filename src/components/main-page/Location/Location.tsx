@@ -1,8 +1,8 @@
 import { Heading, Section, Icon } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
-import styles from "./Location.module.scss";
-import { mapMarker } from "components/ui/Icon";
 import dynamic from "next/dynamic";
+import { useTranslation } from "next-i18next";
+import { mapMarker } from "components/ui/Icon";
+import styles from "./Location.module.scss";
 
 const LocationMap = dynamic(
   () =>
