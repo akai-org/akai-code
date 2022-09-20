@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "next-i18next";
 import dayjs from "dayjs";
-import useTranslation from "translations/hooks/useTranslations";
+import classNames from "classnames";
 import { Badge, Text } from "components/ui";
 import styles from "./HackathonTimer.module.scss";
-import classNames from "classnames";
 
 type ConfigItem = {
   unit: "d" | "h" | "m" | "s";
