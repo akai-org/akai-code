@@ -6,17 +6,17 @@ import { FAQDisclosure } from "./FAQDisclosure/FAQDisclosure";
 const FAQ = () => {
   const { t } = useTranslation();
 
+  const sections = t("faq.x");
+
+  console.log("Sections", sections);
+
   return (
     <Section variant="blue">
       <Heading className={styles.heading} withAccent>
         {t("faq.title")}
       </Heading>
-      <div>
-        <FAQDisclosure
-          question="Lorem ipsum dolor sit amet consectetur adipisicing elit?"
-          answer="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
-        />
-      </div>
+      {t("faq.sections")}
+      <div></div>
     </Section>
   );
 };

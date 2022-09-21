@@ -37,6 +37,27 @@
     "location2": "Politechniki Poznańskiej",
     "location3": "Kampus Piotrowo, Poznań"
   },
+  "faq": {
+    "title": "FAQ",
+    "sections": [
+      {
+        "title": "Section 1",
+        "questions": [
+          { "question": "ASDASDASDASD", "answer": "ASKDJNQWKJDN" },
+          { "question": "ASDASDASDASD", "answer": "ASKDJNQWKJDN" },
+          { "question": "ASDASDASDASD", "answer": "ASKDJNQWKJDN" }
+        ]
+      },
+      {
+        "title": "Section 2",
+        "questions": [
+          { "question": "ASDASDASDASD", "answer": "ASKDJNQWKJDN" },
+          { "question": "ASDASDASDASD", "answer": "ASKDJNQWKJDN" },
+          { "question": "ASDASDASDASD", "answer": "ASKDJNQWKJDN" }
+        ]
+      }
+    ]
+  },
   "footer": {
     "contact": "Contact",
     "akai": "AKAI - Academic Web Application Research Group"
