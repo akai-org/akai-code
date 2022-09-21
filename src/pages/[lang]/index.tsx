@@ -1,18 +1,14 @@
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import { locales } from "translations";
+import { getTranslationsProps } from "translations/getTranslationsProps";
 import { Index } from "../../components/main-page/Index";
-import { locales } from "../../translations/config";
-import { getLocalizationProps } from "../../translations/context/LanguageContext";
-import { Localization } from "../../translations/types";
 
-const IndexPage: NextPage<{
-  localization: Localization;
-}> = () => <Index />;
+const IndexPage: NextPage = () => <Index />;
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
-  const localization = getLocalizationProps(ctx);
   return {
     props: {
-      localization,
+      ...(await getTranslationsProps(ctx.params?.lang as string)),
     },
   };
 };

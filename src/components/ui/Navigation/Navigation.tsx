@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from "next-i18next";
 import classNames from "classnames";
 import { Section } from "components/main-page/types";
-import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Navigation.module.scss";
-import { locales } from "translations/config";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { locales } from "translations";
 
 type SectionConfig = { key: string; url: `#${Section}`; hidden?: boolean };
 const sections: readonly SectionConfig[] = [

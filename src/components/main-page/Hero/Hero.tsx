@@ -1,5 +1,5 @@
 import { Heading, Section, Text, Badge } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslation } from "next-i18next";
 import styles from "./Hero.module.scss";
 
 export function Hero() {

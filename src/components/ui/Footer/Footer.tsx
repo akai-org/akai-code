@@ -1,6 +1,6 @@
 import { facebook, github, linkedin, twitter } from "../Icon";
+import { useTranslation } from "next-i18next";
 import { Icon } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
 import styles from "./Footer.module.scss";
 
 const socialIcons = [
