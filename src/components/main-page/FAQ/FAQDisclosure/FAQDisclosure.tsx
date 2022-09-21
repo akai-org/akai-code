@@ -13,14 +13,14 @@ const FAQDisclosure = ({ question, answer }: Props) => {
   return (
     <Disclosure>
       {({ open }) => (
-        <>
+        <div>
           <div
             className={classNames({
               [styles.buttonBackground]: open,
             })}
           >
             <Disclosure.Button className={styles.button}>
-              {question}{" "}
+              {question}
               <Icon
                 icon={chevron}
                 className={classNames(styles.chevron, { [styles.open]: open })}
@@ -32,7 +32,7 @@ const FAQDisclosure = ({ question, answer }: Props) => {
           >
             {answer}
           </Disclosure.Panel>
-        </>
+        </div>
       )}
     </Disclosure>
   );
