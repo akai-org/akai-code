@@ -6,9 +6,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-align: left;
   font-family: inherit;
   font-size: var(--font-size-m);
-  padding: var(--space-sm);
+  padding: var(--space-s) var(--space-m);
   background-color: var(--color-blue-light);
   color: var(--color-white);
   border: none;
@@ -33,7 +34,4 @@
   color: var(--color-black);
   padding: var(--space-m);
   border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
-}
-
-@media (min-width: 1024px) {
 }
