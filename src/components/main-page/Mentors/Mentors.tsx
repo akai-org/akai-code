@@ -1,5 +1,5 @@
 import { Heading, Section, Card } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslation } from "next-i18next";
 import styles from "./Mentors.module.scss";
 
 export function Mentors() {
