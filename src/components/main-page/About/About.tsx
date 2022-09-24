@@ -1,12 +1,14 @@
 import * as React from "react";
 import styles from "./About.module.scss";
 import { Section, Heading, Text, Card } from "components/ui";
-import useTranslation from "translations/hooks/useTranslations";
+import { useTranslation, Trans } from "next-i18next";
 
 export function About() {
   const { t } = useTranslation();
 
-  const paragraphs = t("about.paragraphs") as string[];
+  const paragraphs = t("about.paragraphs", { returnObjects: true }) as string[];
+
+  console.log(paragraphs);
 
   return (
     <Section variant="white" id="about">
@@ -14,8 +16,8 @@ export function About() {
       <div className={styles.textContainer}>
         {paragraphs?.length > 0 &&
           paragraphs.map((p: string, index: number) => (
-            <Text className={styles.textField} key={index}>
-              {p}
+            <Text key={index} className={styles.textField}>
+              <Trans components={{ strong: <strong /> }}>{p}</Trans>
             </Text>
           ))}
       </div>
