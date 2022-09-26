@@ -1,0 +1,48 @@
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(1, var(--card-width));
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  row-gap: var(--space-l);
+}
+
+.textContainer {
+  margin-top: var(--space-l);
+  margin-bottom: var(--space-xl);
+}
+
+.textField {
+  text-align: center;
+  margin-bottom: var(--space-m);
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+// tablet
+@media (min-width: 480px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, var(--card-width));
+    gap: var(--space-2xl);
+  }
+
+  .textContainer {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-2xl);
+  }
+}
+
+// desktop
+@media (min-width: 1024px) {
+  .textContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .cardContainer {
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0;
+  }
+}
