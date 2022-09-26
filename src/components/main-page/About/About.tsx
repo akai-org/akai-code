@@ -8,18 +8,15 @@ export function About() {
 
   const paragraphs = t("about.paragraphs", { returnObjects: true }) as string[];
 
-  console.log(paragraphs);
-
   return (
     <Section variant="white" id="about">
       <Heading withAccent>{t("about.title")}</Heading>
       <div className={styles.textContainer}>
-        {paragraphs?.length > 0 &&
-          paragraphs.map((p: string, index: number) => (
-            <Text key={index} className={styles.textField}>
-              <Trans components={{ strong: <strong /> }}>{p}</Trans>
-            </Text>
-          ))}
+        {paragraphs?.map((p: string, index: number) => (
+          <Text key={index} className={styles.textField}>
+            <Trans components={{ strong: <strong /> }}>{p}</Trans>
+          </Text>
+        ))}
       </div>
 
       <div className={styles.cardContainer}>
