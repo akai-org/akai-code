@@ -47,6 +47,9 @@
     "location2": "Politechniki Poznańskiej",
     "location3": "Kampus Piotrowo, Poznań"
   },
+  "mentors": {
+    "title": "Mentors & Jurors"
+  },
   "footer": {
     "contact": "Contact",
     "akai": "AKAI - Academic Web Application Research Group"
