@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: var(--space-m);
+  border-radius: var(--border-radius-default);
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--space-3xl);
+  height: var(--space-3xl);
+  font-size: var(--item-icon-size);
+  border-radius: var(--border-radius-default);
+  background-color: var(--color-white);
+  margin-right: var(--space-m);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: var(--font-size-m);
+  color: var(--color-white);
+}
+
+.lightBlue {
+  color: var(--color-blue-light);
+  background-color: var(--color-blue-light);
+}
+
+.blue {
+  color: var(--color-blue);
+  background-color: var(--color-blue);
+}
+
+.orange {
+  color: var(--color-orange);
+  background-color: var(--color-orange);
+}

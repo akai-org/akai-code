@@ -53,6 +53,9 @@
   /* ----- card ----- */
   --card-height: 305px;
   --card-width: 224px;
+
+  /* ----- schedule item ----- */
+  --item-icon-size: 32px;
 }
 
 @media (max-width: 1024px) {
