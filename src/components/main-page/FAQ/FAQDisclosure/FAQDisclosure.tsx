@@ -1,4 +1,4 @@
-import { Disclosure } from "@headlessui/react";
+import { Disclosure, Transition } from "@headlessui/react";
 import classNames from "classnames";
 import { Icon } from "components/ui";
 import styles from "./FAQDisclosure.module.scss";
@@ -27,11 +27,20 @@ const FAQDisclosure = ({ question, answer }: Props) => {
               />
             </Disclosure.Button>
           </div>
-          <Disclosure.Panel
-            className={classNames(styles.panel, { [styles.open]: open })}
+          <Transition
+            enter={styles.enter}
+            enterFrom={styles.enterFrom}
+            enterTo={styles.enterTo}
+            leave={styles.leave}
+            leaveFrom={styles.leaveFrom}
+            leaveTo={styles.leaveTo}
           >
-            {answer}
-          </Disclosure.Panel>
+            <Disclosure.Panel
+              className={classNames(styles.panel, { [styles.open]: open })}
+            >
+              {answer}
+            </Disclosure.Panel>
+          </Transition>
         </div>
       )}
     </Disclosure>

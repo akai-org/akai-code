@@ -1,6 +1,10 @@
 .buttonBackground {
   background-color: var(--color-white);
   border-radius: var(--border-radius-default) var(--border-radius-default) 0 0;
+  transition: background-color 0.3s linear;
+
+  .open {
+  }
 }
 .button {
   display: flex;
@@ -34,4 +38,32 @@
   color: var(--color-black);
   padding: var(--space-m);
   border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
+  animation-delay: 0.2s;
+}
+
+.enter {
+  transition: all 0.2s ease-out;
+  transform-origin: top;
+  transition-delay: 0.1s;
+}
+.enterFrom {
+  transform: scaleY(0.5);
+  opacity: 0;
+}
+.enterTo {
+  transform: scaleY(1);
+  opacity: 1;
+}
+.leave {
+  transform-origin: top;
+  transition: all 0.1s ease-out;
+}
+.leaveFrom {
+  transform-origin: top;
+  transform: scaleY(1);
+  opacity: 1;
+}
+.leaveTo {
+  transform: scaleY(0.5);
+  opacity: 0;
 }
