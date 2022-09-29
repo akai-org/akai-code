@@ -31,6 +31,14 @@
     "seconds": "secs",
     "registration": "Registration"
   },
+  "about": {
+    "title": "About us",
+    "paragraphs": [
+      "The first edition of the <strong>AKAI Code</strong> hackathon organized by <strong>AKAI</strong> - Akademickie Koło Aplikacji Internetowych - takes place at the <strong>Poznań University of Technology</strong>.",
+      "The idea of an event is simple! You code an <strong>application</strong> related to the topic within <strong>24 hours</strong> and then the jury decides which team will win.",
+      "There are <strong>three categories</strong> to compete in - Best Idea, Best Prototype and Best use of technology. What's the <strong>topic</strong>? You'll find out soon!"
+    ]
+  },
   "location": {
     "title": "Location",
     "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
@@ -85,6 +93,9 @@
         ]
       }
     ]
+  },
+  "mentors": {
+    "title": "Mentors & Jurors"
   },
   "footer": {
     "contact": "Contact",
