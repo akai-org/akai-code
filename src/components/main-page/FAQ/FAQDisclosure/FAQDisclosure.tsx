@@ -3,13 +3,13 @@ import classNames from "classnames";
 import { Icon } from "components/ui";
 import styles from "./FAQDisclosure.module.scss";
 import { chevron } from "components/ui/Icon/index";
+import { Question } from "../FAQ";
 
 interface Props {
-  question: string;
-  answer: string;
+  FAQItem: Question;
 }
 
-const FAQDisclosure = ({ question, answer }: Props) => {
+const FAQDisclosure = ({ FAQItem }: Props) => {
   return (
     <Disclosure>
       {({ open }) => (
@@ -20,7 +20,7 @@ const FAQDisclosure = ({ question, answer }: Props) => {
             })}
           >
             <Disclosure.Button className={styles.button}>
-              {question}
+              {FAQItem.question}
               <Icon
                 icon={chevron}
                 className={classNames(styles.chevron, { [styles.open]: open })}
@@ -38,7 +38,7 @@ const FAQDisclosure = ({ question, answer }: Props) => {
             <Disclosure.Panel
               className={classNames(styles.panel, { [styles.open]: open })}
             >
-              {answer}
+              {FAQItem.answer}
             </Disclosure.Panel>
           </Transition>
         </div>

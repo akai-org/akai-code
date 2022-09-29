@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 import styles from "./FAQ.module.scss";
 import { FAQDisclosure } from "./FAQDisclosure/FAQDisclosure";
 
-type Question = {
+export type Question = {
   question: string;
   answer: string;
 };
@@ -28,11 +28,7 @@ const FAQ = () => {
           <div className={styles.questionsContainer} key={title}>
             <p className={styles.sectionTitle}>{title}</p>
             {questions.map((question) => (
-              <FAQDisclosure
-                key={question.question}
-                question={question.question}
-                answer={question.answer}
-              />
+              <FAQDisclosure key={question.question} FAQItem={question} />
             ))}
           </div>
         ))}
