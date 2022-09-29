@@ -44,23 +44,28 @@
   transform-origin: top;
   transition-delay: 0.1s;
 }
+
 .enterFrom {
   transform: scaleY(0.5);
   opacity: 0;
 }
+
 .enterTo {
   transform: scaleY(1);
   opacity: 1;
 }
+
 .leave {
   transform-origin: top;
   transition: all 0.1s ease-out;
 }
+
 .leaveFrom {
   transform-origin: top;
   transform: scaleY(1);
   opacity: 1;
 }
+
 .leaveTo {
   transform: scaleY(0.5);
   opacity: 0;
