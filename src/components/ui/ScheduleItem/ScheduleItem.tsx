@@ -1,12 +1,12 @@
 import classNames from "classnames";
 import styles from "./ScheduleItem.module.scss";
-import { AiFillClockCircle, AiOutlineQrcode } from "react-icons/ai";
-import { BsBraces } from "react-icons/bs";
+import Icon from "@mdi/react";
+import { mdiClock, mdiQrcode, mdiCodeBraces } from "@mdi/js";
 
 const iconsSet = {
-  clock: AiFillClockCircle,
-  qr: AiOutlineQrcode,
-  braces: BsBraces,
+  clock: mdiClock,
+  qr: mdiQrcode,
+  braces: mdiCodeBraces,
 };
 
 type Props = {
@@ -26,12 +26,10 @@ export function ScheduleItem({
   theme = "lightBlue",
   className,
 }: Props) {
-  const CustomIcon = iconsSet[icon];
-
   return (
     <div className={classNames(styles.item, styles[theme], className)}>
       <div className={styles.iconContainer}>
-        <CustomIcon />
+        <Icon path={iconsSet[icon]} className={styles.icon} />
       </div>
       <div className={styles.textContainer}>
         <h4>{title}</h4>

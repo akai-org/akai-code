@@ -11,10 +11,14 @@
   justify-content: center;
   width: var(--space-3xl);
   height: var(--space-3xl);
-  font-size: var(--item-icon-size);
   border-radius: var(--border-radius-default);
   background-color: var(--color-white);
   margin-right: var(--space-m);
+}
+
+.icon {
+  width: var(--item-icon-size);
+  height: var(--item-icon-size);
 }
 
 .textContainer {
