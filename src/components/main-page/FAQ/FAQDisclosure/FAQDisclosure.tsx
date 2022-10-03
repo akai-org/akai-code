@@ -14,19 +14,13 @@ const FAQDisclosure = ({ FAQItem }: Props) => {
     <Disclosure>
       {({ open }) => (
         <div>
-          <div
-            className={classNames({
-              [styles.buttonBackground]: open,
-            })}
-          >
-            <Disclosure.Button className={styles.button}>
-              {FAQItem.question}
-              <Icon
-                icon={chevron}
-                className={classNames(styles.chevron, { [styles.open]: open })}
-              />
-            </Disclosure.Button>
-          </div>
+          <Disclosure.Button className={styles.button}>
+            {FAQItem.question}
+            <Icon
+              icon={chevron}
+              className={classNames(styles.chevron, { [styles.open]: open })}
+            />
+          </Disclosure.Button>
           <Transition
             enter={styles.enter}
             enterFrom={styles.enterFrom}

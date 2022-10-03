@@ -1,13 +1,10 @@
-.buttonBackground {
-  background-color: var(--color-white);
-  border-radius: var(--border-radius-default) var(--border-radius-default) 0 0;
-  transition: background-color 0.3s linear;
-}
-
 .button {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  z-index: 10;
   text-align: left;
   font-family: inherit;
   font-size: var(--font-size-m);
@@ -17,7 +14,6 @@
   border: none;
   border-radius: var(--border-radius-default);
   cursor: pointer;
-  width: 100%;
 }
 
 .chevron {
@@ -36,37 +32,39 @@
   color: var(--color-black);
   padding: var(--space-m);
   border-radius: 0 0 var(--border-radius-default) var(--border-radius-default);
-  animation-delay: 0.2s;
+  padding-top: var(--space-m);
 }
 
 .enter {
-  transition: all 0.2s ease-out;
+  transition: all 0.25s ease-in-out;
   transform-origin: top;
-  transition-delay: 0.1s;
 }
 
 .enterFrom {
-  transform: scaleY(0.5);
+  transform: translateY(0) scaleY(0);
   opacity: 0;
+  max-height: 0;
 }
 
 .enterTo {
-  transform: scaleY(1);
+  transform: translateY(-5px) scaleY(1);
   opacity: 1;
+  max-height: 400px;
 }
 
 .leave {
   transform-origin: top;
-  transition: all 0.1s ease-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .leaveFrom {
-  transform-origin: top;
-  transform: scaleY(1);
+  transform: scaleY(1) translateY(-5px);
   opacity: 1;
+  max-height: 400px;
 }
 
 .leaveTo {
-  transform: scaleY(0.5);
+  transform: scaleY(0) translateY(0);
   opacity: 0;
+  max-height: 0;
 }
