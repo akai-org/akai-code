@@ -9,7 +9,7 @@ interface Props {
   FAQItem: Question;
 }
 
-const FAQDisclosure = ({ FAQItem }: Props) => {
+export const FAQDisclosure = ({ FAQItem }: Props) => {
   return (
     <Disclosure>
       {({ open }) => (
@@ -40,5 +40,3 @@ const FAQDisclosure = ({ FAQItem }: Props) => {
     </Disclosure>
   );
 };
-
-export { FAQDisclosure };

@@ -13,7 +13,7 @@ interface Section {
   questions: Question[];
 }
 
-const FAQ = () => {
+export const FAQ = () => {
   const { t } = useTranslation();
   const sections = t("faq.sections", { returnObjects: true }) as Section[];
 
@@ -36,5 +36,3 @@ const FAQ = () => {
     </Section>
   );
 };
-
-export { FAQ };
