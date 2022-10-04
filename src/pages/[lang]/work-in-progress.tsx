@@ -5,8 +5,8 @@ import {
   Location,
   Mentors,
   Registration,
+  FAQ,
 } from "components/main-page";
-import { FAQ } from "components/main-page/FAQ/FAQ";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import { locales } from "translations";
