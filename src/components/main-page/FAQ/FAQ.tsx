@@ -18,7 +18,7 @@ export const FAQ = () => {
   const sections = t("faq.sections", { returnObjects: true }) as Section[];
 
   return (
-    <Section variant="blue">
+    <Section id="faq" variant="blue">
       <Heading className={styles.heading} withAccent>
         {t("faq.title")}
       </Heading>
