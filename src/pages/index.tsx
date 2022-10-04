@@ -1,9 +1,8 @@
-import React from "react";
 import { GetStaticProps, NextPage } from "next";
-import { Index } from "components/main-page/Index";
+import { Content } from "components/main-page/Content";
 import { getTranslationsProps } from "translations/getTranslationsProps";
 
-const IndexPage: NextPage = () => <Index />;
+const IndexPage: NextPage = () => <Content />;
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   return {

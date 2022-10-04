@@ -7,4 +7,5 @@ export {
   mdiClock as clock,
   mdiQrcode as qr,
   mdiCodeBraces as braces,
+  mdiChevronDown as chevron,
 } from "@mdi/js";

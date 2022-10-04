@@ -3,4 +3,6 @@ export type Section =
   | "event-details"
   | "registration"
   | "location"
-  | "about";
+  | "mentors"
+  | "about"
+  | "faq";

@@ -47,6 +47,56 @@
     "location2": "Politechniki Poznańskiej",
     "location3": "Kampus Piotrowo, Poznań"
   },
+  "faq": {
+    "title": "FAQ",
+    "sections": [
+      {
+        "title": "Sekcja 1",
+        "questions": [
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          },
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          },
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          },
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          }
+        ]
+      },
+      {
+        "title": "Sekcja 2",
+        "questions": [
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          },
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          },
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          },
+          {
+            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+          }
+        ]
+      }
+    ]
+  },
+  "mentors": {
+    "title": "Mentors & Jurors"
+  },
   "footer": {
     "contact": "Contact",
     "akai": "AKAI - Academic Web Application Research Group"
