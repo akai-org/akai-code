@@ -5,6 +5,7 @@ import {
   Location,
   Mentors,
   Registration,
+  FAQ,
 } from "components/main-page";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
@@ -23,6 +24,7 @@ const IndexPage: NextPage = () => (
     <About />
     <Location />
     <Mentors />
+    <FAQ />
   </>
 );
 

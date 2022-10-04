@@ -4,4 +4,5 @@ export type Section =
   | "registration"
   | "location"
   | "mentors"
-  | "about";
+  | "about"
+  | "faq";
