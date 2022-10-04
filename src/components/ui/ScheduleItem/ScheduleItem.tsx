@@ -1,12 +1,12 @@
 import classNames from "classnames";
 import styles from "./ScheduleItem.module.scss";
-import Icon from "@mdi/react";
-import { mdiClock, mdiQrcode, mdiCodeBraces } from "@mdi/js";
+import { Icon } from "../";
+import { clock, qr, braces } from "../Icon";
 
 const iconsSet = {
-  clock: mdiClock,
-  qr: mdiQrcode,
-  braces: mdiCodeBraces,
+  clock,
+  qr,
+  braces,
 };
 
 type Props = {
@@ -29,7 +29,7 @@ export function ScheduleItem({
   return (
     <div className={classNames(styles.item, styles[theme], className)}>
       <div className={styles.iconContainer}>
-        <Icon path={iconsSet[icon]} className={styles.icon} />
+        <Icon icon={iconsSet[icon]} className={styles.icon} />
       </div>
       <div className={styles.textContainer}>
         <h4>{title}</h4>
