@@ -3,6 +3,21 @@
   flex-direction: row;
   padding: var(--space-m);
   border-radius: var(--border-radius-default);
+
+  &.lightBlue {
+    color: var(--color-blue-light);
+    background-color: var(--color-blue-light);
+  }
+
+  &.blue {
+    color: var(--color-blue);
+    background-color: var(--color-blue);
+  }
+
+  &.orange {
+    color: var(--color-orange);
+    background-color: var(--color-orange);
+  }
 }
 
 .iconContainer {
@@ -28,19 +43,4 @@
   justify-content: space-between;
   font-size: var(--font-size-m);
   color: var(--color-white);
-}
-
-.lightBlue {
-  color: var(--color-blue-light);
-  background-color: var(--color-blue-light);
-}
-
-.blue {
-  color: var(--color-blue);
-  background-color: var(--color-blue);
-}
-
-.orange {
-  color: var(--color-orange);
-  background-color: var(--color-orange);
 }
