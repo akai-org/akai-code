@@ -54,6 +54,10 @@
   --card-height: 305px;
   --card-width: 224px;
 
+  /* ----- schedule item ----- */
+  --icon-container-size: 64px;
+  --icon-size: 32px;
+
   /* ----- FAQ----- */
   --chevron-height: 32px;
 }
