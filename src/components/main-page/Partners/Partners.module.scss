@@ -1,0 +1,43 @@
+.heading {
+  margin-bottom: var(--title-spacing);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  color: var(--color-white);
+}
+
+.partnersIconsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-xl) var(--space-3xl);
+  margin: var(--space-xl) 0 var(--space-2xl) 0;
+  max-width: 800px;
+}
+
+.partnerIcon {
+  transition: transform ease-in-out 0.25s;
+  transform: scale(1);
+  max-width: 128px;
+  height: 64px;
+}
+
+.partnerIconLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    .partnerIcon {
+      transform: scale(1.125);
+    }
+  }
+}
