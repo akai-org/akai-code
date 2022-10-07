@@ -3,7 +3,7 @@ import styles from "./ScheduleItem.module.scss";
 import { Icon } from "../";
 import { clock, qr, braces } from "../Icon";
 
-const iconsSet = {
+export const iconsSet = {
   clock,
   qr,
   braces,
@@ -23,7 +23,7 @@ export function ScheduleItem({
   title,
   startDate,
   endDate,
-  theme = "lightBlue",
+  theme = "blue",
   className,
 }: Props) {
   return (
