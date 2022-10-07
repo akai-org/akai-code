@@ -97,6 +97,67 @@
   "mentors": {
     "title": "Mentorzy & Jurorzy"
   },
+  "schedule": {
+    "title": "Schedule",
+    "days": [
+      {
+        "name": "04.11 - PIĄTEK",
+        "agenda": [
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "icon": "clock",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "COŚ z przeszłości",
+            "icon": "qr",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "COŚ z teraźniejszości",
+            "icon": "braces",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "COŚ z przyszłości 🛸",
+            "icon": "braces",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          }
+        ]
+      },
+      {
+        "name": "05.11 - SOBOTA",
+        "agenda": [
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "icon": "clock",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 1",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 2",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 3",
+            "icon": "clock",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          }
+        ]
+      }
+    ]
+  },
   "footer": {
     "contact": "Kontakt",
     "akai": "AKAI - Akademickie Koło Aplikacji Internetowych"

@@ -97,6 +97,67 @@
   "mentors": {
     "title": "Mentors & Jurors"
   },
+  "schedule": {
+    "title": "Schedule",
+    "days": [
+      {
+        "name": "04.11 - FRIDAY",
+        "agenda": [
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "icon": "clock",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "SMTH from the past",
+            "icon": "qr",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "SMTH which is currently live",
+            "icon": "braces",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "SMTH from the future 🛸",
+            "icon": "braces",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          }
+        ]
+      },
+      {
+        "name": "05.11 - SATURDAY",
+        "agenda": [
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+            "icon": "clock",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 1",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 2",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          },
+          {
+            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 3",
+            "icon": "clock",
+            "start": "XX:XX",
+            "end": "XX:XX"
+          }
+        ]
+      }
+    ]
+  },
   "footer": {
     "contact": "Contact",
     "akai": "AKAI - Academic Web Application Research Group"
