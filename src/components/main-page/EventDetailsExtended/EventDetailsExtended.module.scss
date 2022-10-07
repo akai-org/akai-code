@@ -18,7 +18,7 @@
 
 .subtitle {
   font-weight: 400;
-  margin: 32px auto 24px;
+  margin: var(--space-xl) auto var(--space-l);
 }
 
 .categoriesContainer {
@@ -31,7 +31,7 @@
 // tablet
 @media (min-width: 480px) {
   .subtitle {
-    margin: 48px auto 32px;
+    margin: var(--space-2xl) auto var(--space-xl);
   }
 
   .categoriesContainer {
