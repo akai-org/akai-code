@@ -21,6 +21,26 @@
       "main": "The first edition of the <strong>AKAI Code</strong> hackathon organized by <strong>AKAI</strong> - Academic Web Application Research Group - takes place at the <strong>Poznań University of Technology</strong>.",
       "idea": "The idea of an event is simple! You code an application related to the topic within <strong>24 hours</strong>, and then the jury decides which team will win.",
       "categories": "There are <strong>three categories</strong> to compete in - Best Idea, Best Prototype and Best use of technology. What's the <strong>topic</strong>? You'll find out soon!"
+    },
+    "topic": {
+      "title": "Topic",
+      "topic": "The hackathon topic is - <strong>where bluzy?</strong>",
+      "topicDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+    },
+    "categories": {
+      "title": "Categories",
+      "bestIdea": {
+        "title": "Best Idea",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus magnam ut nam alias voluptas maxime aut harum ea fuga eum!"
+      },
+      "bestPrototype": {
+        "title": "Best Prototype",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus magnam ut nam alias voluptas maxime aut harum ea fuga eum!"
+      },
+      "bestTechnology": {
+        "title": "Best use of Tech",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus magnam ut nam alias voluptas maxime aut harum ea fuga eum!"
+      }
     }
   },
   "registration": {
