@@ -1,5 +1,5 @@
 .heading {
-  margin-bottom: var(--title-spacing);
+  margin-bottom: var(--space-2xl);
 }
 
 .container {
@@ -19,15 +19,15 @@
   justify-content: center;
   align-items: center;
   gap: var(--space-xl) var(--space-3xl);
-  margin: var(--space-xl) 0 var(--space-2xl) 0;
+  margin: var(--space-xl) 0 var(--space-2xl);
   max-width: 800px;
 }
 
 .partnerIcon {
   transition: transform ease-in-out 0.25s;
   transform: scale(1);
-  max-width: 128px;
-  height: 64px;
+  max-width: var(--partner-icon-max-width);
+  height: var(--parnter-icon-height);
 }
 
 .partnerIconLink {
@@ -37,7 +37,7 @@
 
   &:hover {
     .partnerIcon {
-      transform: scale(1.125);
+      transform: scale(var(--partner-icon-hover-scale));
     }
   }
 }

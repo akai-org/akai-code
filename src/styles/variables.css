@@ -56,6 +56,11 @@
 
   /* ----- FAQ----- */
   --chevron-height: 32px;
+
+  /* ----- partners ----- */
+  --partner-icon-max-width: 128px;
+  --parnter-icon-height: 64px;
+  --partner-icon-hover-scale: 1.125;
 }
 
 @media (max-width: 1024px) {
