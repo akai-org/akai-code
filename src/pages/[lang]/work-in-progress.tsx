@@ -1,6 +1,6 @@
 import {
   About,
-  EventDetails,
+  EventDetailsExtended,
   Hero,
   Location,
   Mentors,
@@ -19,7 +19,7 @@ const IndexPage: NextPage = () => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <Hero />
-    <EventDetails />
+    <EventDetailsExtended />
     <Registration />
     <About />
     <Location />

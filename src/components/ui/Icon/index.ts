@@ -8,4 +8,7 @@ export {
   mdiQrcode as qr,
   mdiCodeBraces as braces,
   mdiChevronDown as chevron,
+  mdiLightbulbOnOutline as lightBulb,
+  mdiCogOutline as cog,
+  mdiHammerWrench as hammerWrench,
 } from "@mdi/js";
