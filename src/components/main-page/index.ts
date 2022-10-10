@@ -6,3 +6,4 @@ export { About } from "./About/About";
 export { Location } from "./Location/Location";
 export { Mentors } from "./Mentors/Mentors";
 export { FAQ } from "./FAQ/FAQ";
+export { Partners } from "./Partners/Partners";
