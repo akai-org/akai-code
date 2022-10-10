@@ -104,24 +104,28 @@
         "name": "04.11 - FRIDAY",
         "agenda": [
           {
+            "id": 1,
             "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
             "icon": "clock",
             "start": "12:00",
             "end": "13:00"
           },
           {
+            "id": 2,
             "title": "SMTH from the past",
             "icon": "qr",
             "start": "XX:XX",
             "end": "XX:XX"
           },
           {
+            "id": 3,
             "title": "SMTH which is currently live",
             "icon": "braces",
             "start": "XX:XX",
             "end": "XX:XX"
           },
           {
+            "id": 4,
             "title": "SMTH from the future 🛸",
             "icon": "braces",
             "start": "XX:XX",
@@ -133,22 +137,26 @@
         "name": "05.11 - SATURDAY",
         "agenda": [
           {
+            "id": 5,
             "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
             "icon": "clock",
             "start": "12:00",
             "end": "13:00"
           },
           {
+            "id": 6,
             "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 1",
             "start": "XX:XX",
             "end": "XX:XX"
           },
           {
+            "id": 7,
             "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 2",
             "start": "XX:XX",
             "end": "XX:XX"
           },
           {
+            "id": 8,
             "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 3",
             "icon": "clock",
             "start": "XX:XX",
