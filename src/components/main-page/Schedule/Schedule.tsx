@@ -20,14 +20,18 @@ export function Schedule() {
   }) as { name: string; agenda: Agenda[] }[];
 
   function createScheduleElement(item: Agenda): JSX.Element {
-    const timer =
-      scheduleList.find((el) => el.id === item.id) ?? scheduleList[0];
-    const color =
-      timer!.endTimestamp.getTime() < new Date().getTime()
-        ? "lightBlue"
-        : timer!.startTimestamp.getTime() < new Date().getTime()
-        ? "orange"
-        : "blue";
+    const timer = scheduleList.find((el) => el.id === item.id);
+
+    let color: "blue" | "orange" | "lightBlue" = "blue";
+
+    if (timer) {
+      color =
+        timer?.endTimestamp.getTime() < new Date().getTime()
+          ? "lightBlue"
+          : timer?.startTimestamp?.getTime() < new Date().getTime()
+          ? "orange"
+          : "blue";
+    }
 
     return (
       <ScheduleItem
