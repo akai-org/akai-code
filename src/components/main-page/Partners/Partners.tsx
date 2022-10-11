@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { Badge, Heading, Section } from "components/ui";
 import { useTranslation } from "next-i18next";
 import styles from "./Partners.module.scss";
@@ -36,6 +35,7 @@ const Partners = () => {
                 {companies.map(({ name, logo, url }) => {
                   return (
                     <a className={styles.partnerIconLink} href={url} key={name}>
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         alt={`${name} logo`}
                         src={`/images/partners/${logo}`}

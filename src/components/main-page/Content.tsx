@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Hero, EventDetails, Registration } from ".";
+import { Hero, EventDetailsExtended, FAQ, Registration } from ".";
 
 export function Content() {
   return (
@@ -9,8 +9,9 @@ export function Content() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Hero />
-      <EventDetails />
+      <EventDetailsExtended />
       <Registration />
+      <FAQ />
     </>
   );
 }
