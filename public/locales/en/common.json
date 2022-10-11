@@ -69,39 +69,25 @@
     "location3": "Kampus Piotrowo, Poznań"
   },
   "partners": {
-    "title": "Partnerzy",
+    "title": "Partners",
     "categories": [
       {
-        "name": "Media partners",
+        "name": "Event sponsors",
         "companies": [
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "Nobl9",
+            "url": "https://www.nobl9.com/",
+            "logo": "nobl9.png"
           },
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "Wunderman Thompson",
+            "url": "https://www.wundermanthompson.com/",
+            "logo": "wtt.png"
           },
           {
-            "name": "Inetum",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "Sollers Consulting",
+            "url": "https://sollers.eu/",
+            "logo": "sollers.png"
           }
         ]
       },
@@ -109,14 +95,29 @@
         "name": "Event partners",
         "companies": [
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "WithSecure",
+            "url": "https://www.withsecure.com/",
+            "logo": "withsecure.png"
           },
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "Inetum",
+            "url": "https://inetum.pl/",
+            "logo": "inetum.png"
+          },
+          {
+            "name": "Capgemini",
+            "url": "https://www.capgemini.com/",
+            "logo": "capgemini.jpg"
+          },
+          {
+            "name": "AppUnite",
+            "url": "https://appunite.com/",
+            "logo": "appunite.png"
+          },
+          {
+            "name": "All for One",
+            "url": "https://www.all-for-one.pl/",
+            "logo": "allforone.png"
           }
         ]
       },
@@ -124,14 +125,34 @@
         "name": "Community partners",
         "companies": [
           {
-            "name": "Example company",
-            "url": "https://example.com",
-            "logo": "placeholder.png"
+            "name": "HackYeah",
+            "url": "https://hackyeah.pl/",
+            "logo": "hackyeah.jpg"
           },
           {
-            "name": "Example company",
-            "url": "https://www.exmaplecom/",
-            "logo": "placeholder.png"
+            "name": "meet.js",
+            "url": "https://summit.meetjs.pl/",
+            "logo": "meetjs.png"
+          },
+          {
+            "name": "Radio Afera",
+            "url": "https://www.afera.com.pl/",
+            "logo": "afera.png"
+          }
+        ]
+      },
+      {
+        "name": "Poznań University of Technology Partners",
+        "companies": [
+          {
+            "name": "Politechnika Poznańska",
+            "url": "https://www.put.poznan.pl/",
+            "logo": "politechnika.png"
+          },
+          {
+            "name": "Wydział Informatyki i Telekomunikacji",
+            "url": "https://cat.put.poznan.pl",
+            "logo": "wiit.png"
           }
         ]
       }
