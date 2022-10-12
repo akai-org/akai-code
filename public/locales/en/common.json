@@ -72,7 +72,7 @@
     "title": "Partners",
     "categories": [
       {
-        "name": "Event sponsors",
+        "name": "Award sponsors",
         "companies": [
           {
             "name": "Nobl9",
@@ -92,7 +92,7 @@
         ]
       },
       {
-        "name": "Event partners",
+        "name": "Supporters",
         "companies": [
           {
             "name": "WithSecure",
@@ -100,9 +100,9 @@
             "logo": "withsecure.png"
           },
           {
-            "name": "Inetum",
-            "url": "https://inetum.pl/",
-            "logo": "inetum.png"
+            "name": "All for One",
+            "url": "https://www.all-for-one.pl/",
+            "logo": "allforone.png"
           },
           {
             "name": "Capgemini",
@@ -115,14 +115,14 @@
             "logo": "appunite.png"
           },
           {
-            "name": "All for One",
-            "url": "https://www.all-for-one.pl/",
-            "logo": "allforone.png"
+            "name": "Inetum",
+            "url": "https://inetum.pl/",
+            "logo": "inetum.png"
           }
         ]
       },
       {
-        "name": "Community partners",
+        "name": "Media partners",
         "companies": [
           {
             "name": "HackYeah",
