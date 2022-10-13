@@ -26,8 +26,10 @@
 .partnerIcon {
   transition: transform ease-in-out 0.25s;
   transform: scale(1);
+  width: auto;
   max-width: var(--partner-icon-max-width);
-  height: var(--parnter-icon-height);
+  height: auto;
+  max-height: var(--partner-icon-height);
 }
 
 .partnerIconLink {

@@ -44,7 +44,7 @@ export function EventDetailsExtended() {
       <Text className={styles.text}>
         <Trans
           i18nKey="eventDetails.topic.topicDescription"
-          components={{ strong: <strong /> }}
+          components={{ strong: <strong />, br: <br /> }}
         />
       </Text>
 

@@ -1,7 +1,9 @@
 {
   "navigation": {
     "akaiCode": "AKAI Code",
-    "registration": "Registration"
+    "registration": "Registration",
+    "partners": "Partners",
+    "faq": "FAQ"
   },
   "hero": {
     "title": "AKAI Code",
@@ -20,26 +22,26 @@
     "description": {
       "main": "The first edition of the <strong>AKAI Code</strong> hackathon organized by <strong>AKAI</strong> - Academic Web Application Research Group - takes place at the <strong>Poznań University of Technology</strong>.",
       "idea": "The idea of an event is simple! You code an application related to the topic within <strong>24 hours</strong>, and then the jury decides which team will win.",
-      "categories": "There are <strong>three categories</strong> to compete in - Best Idea, Best Prototype and Best use of technology. What's the <strong>topic</strong>? You'll find out soon!"
+      "categories": "There are <strong>three categories</strong> to compete in - Best Idea, Best Prototype and Best Technology Usage. What's the <strong>topic</strong>? You'll find out soon!"
     },
     "topic": {
       "title": "Topic",
-      "topic": "The hackathon topic is - <strong>where bluzy?</strong>",
-      "topicDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+      "topic": "The theme of the first edition of AKAI Code is <strong>\"The Social Influence\"</strong>.",
+      "topicDescription": "Introduce us to an idea that solves a problem of a small or or larger community that you're part of.<br>Have an idea on how to support your local food bank? nice! Know how to help an animal shelter in your area? Great! Have you come up with a solution to old lady Jadzia's problem? Let's go!<br>Find your jumble, take it apart, figure out the solution and at the end shine in front of a jury!"
     },
     "categories": {
       "title": "Categories",
       "bestIdea": {
         "title": "Best Idea",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus magnam ut nam alias voluptas maxime aut harum ea fuga eum!"
+        "description": "The most interesting initiative that solves in an interesting and real way the problem of Your community."
       },
       "bestPrototype": {
         "title": "Best Prototype",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus magnam ut nam alias voluptas maxime aut harum ea fuga eum!"
+        "description": "The best implementation of an idea, it means the most accurate way to execute an idea."
       },
       "bestTechnology": {
-        "title": "Best use of Tech",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus magnam ut nam alias voluptas maxime aut harum ea fuga eum!"
+        "title": "Best Technology Usage",
+        "description": "The best technical execution of the project - means the best choice of technology, programming, or clever software solutions."
       }
     }
   },
@@ -68,69 +70,90 @@
     "location3": "Kampus Piotrowo, Poznań"
   },
   "partners": {
-    "title": "Partnerzy",
+    "title": "Partners",
     "categories": [
+      {
+        "name": "Award sponsors",
+        "companies": [
+          {
+            "name": "Nobl9",
+            "url": "https://www.nobl9.com/",
+            "logo": "nobl9.png"
+          },
+          {
+            "name": "Wunderman Thompson",
+            "url": "https://www.wundermanthompson.com/",
+            "logo": "wtt.png"
+          },
+          {
+            "name": "Sollers Consulting",
+            "url": "https://sollers.eu/",
+            "logo": "sollers.png"
+          }
+        ]
+      },
+      {
+        "name": "Supporters",
+        "companies": [
+          {
+            "name": "WithSecure",
+            "url": "https://www.withsecure.com/",
+            "logo": "withsecure.png"
+          },
+          {
+            "name": "All for One",
+            "url": "https://www.all-for-one.pl/",
+            "logo": "allforone.png"
+          },
+          {
+            "name": "Capgemini",
+            "url": "https://www.capgemini.com/",
+            "logo": "capgemini.jpg"
+          },
+          {
+            "name": "AppUnite",
+            "url": "https://appunite.com/",
+            "logo": "appunite.png"
+          },
+          {
+            "name": "Inetum",
+            "url": "https://inetum.pl/",
+            "logo": "inetum.png"
+          }
+        ]
+      },
       {
         "name": "Media partners",
         "companies": [
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "HackYeah",
+            "url": "https://hackyeah.pl/",
+            "logo": "hackyeah.jpg"
           },
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "meet.js",
+            "url": "https://summit.meetjs.pl/",
+            "logo": "meetjs.png"
           },
           {
-            "name": "Inetum",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "Radio Afera",
+            "url": "https://www.afera.com.pl/",
+            "logo": "afera.png"
           }
         ]
       },
       {
-        "name": "Event partners",
+        "name": "Poznań University of Technology Partners",
         "companies": [
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
+            "name": "Politechnika Poznańska",
+            "url": "https://www.put.poznan.pl/",
+            "logo": "politechnika.png"
           },
           {
-            "name": "Example company",
-            "url": "https://www.example.com/",
-            "logo": "placeholder.png"
-          }
-        ]
-      },
-      {
-        "name": "Community partners",
-        "companies": [
-          {
-            "name": "Example company",
-            "url": "https://example.com",
-            "logo": "placeholder.png"
-          },
-          {
-            "name": "Example company",
-            "url": "https://www.exmaplecom/",
-            "logo": "placeholder.png"
+            "name": "Wydział Informatyki i Telekomunikacji",
+            "url": "https://cat.put.poznan.pl",
+            "logo": "wiit.png"
           }
         ]
       }
@@ -140,44 +163,50 @@
     "title": "FAQ",
     "sections": [
       {
-        "title": "Sekcja 1",
         "questions": [
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Do you need to know how to code?",
+            "answer": "No! You can make a presentation, mock-up or whatever you want. Just present your idea to the jury."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Is there a fee to participate?",
+            "answer": "No, participation is free."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Will there be prizes?",
+            "answer": "Yes, your efforts must be rewarded."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
-          }
-        ]
-      },
-      {
-        "title": "Sekcja 2",
-        "questions": [
-          {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Who can participate?",
+            "answer": "The minimum age of a participant is 15 years old. However, if there is a minor in the team, he or she must have an adult guardian."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Can a person from the team be the guardian of a minor?",
+            "answer": "Yes! The only requirement is that they must be in the same team."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Can I be on more than one team?",
+            "answer": "Unfortunately, no!"
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "How many people can be in a team?",
+            "answer": "A team is from 1 to 6 people, including the captain."
+          },
+          {
+            "question": "We have the team, now what?",
+            "answer": "The captain must register the team here: <a href=\"https://samorzad.put.poznan.pl/akai-rejestracja-zespolu\" target=\"_blank\">https://samorzad.put.poznan.pl/akai-rejestracja-zespolu<a>."
+          },
+          {
+            "question": "Why do I need to specify the allowance of each member in the application form?",
+            "answer": "This is an indicative question, which helps us to prepare the appropriate amount of food."
+          },
+          {
+            "question": "Is it possible to change the data after the registration form is approved?",
+            "answer": "Yes. Just write to us on FB and we will correct everything."
+          },
+          {
+            "question": "How should I prepare for the hackathon?",
+            "answer": "Equip yourself with a laptop, an account on the Discord platform, warm clothes and a sleeping bag (if you consider sleeping…)."
           }
         ]
       }

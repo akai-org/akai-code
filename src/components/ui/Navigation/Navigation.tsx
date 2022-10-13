@@ -12,6 +12,8 @@ const sections: readonly SectionConfig[] = [
   { key: "hero", url: "#hero", hidden: true },
   { key: "akaiCode", url: "#event-details" },
   { key: "registration", url: "#registration" },
+  { key: "partners", url: "#partners" },
+  { key: "faq", url: "#faq" },
 ] as const;
 
 export function Navigation() {
@@ -51,7 +53,7 @@ export function Navigation() {
       // TODO: it may require to fine-tune the threshold for mobile breakpoints
       // in which some sections are larger, hence threhold needs to be lowered
       {
-        threshold: 0.6,
+        threshold: 0.35,
         rootMargin: "-25% 0px -25%",
       },
     );

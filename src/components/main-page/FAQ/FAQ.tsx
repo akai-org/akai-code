@@ -26,7 +26,7 @@ export const FAQ = () => {
       <div>
         {sections.map(({ title, questions }) => (
           <div className={styles.questionsContainer} key={title}>
-            <p className={styles.sectionTitle}>{title}</p>
+            {title && <p className={styles.sectionTitle}>{title}</p>}
             {questions.map((question) => (
               <FAQDisclosure key={question.question} FAQItem={question} />
             ))}
