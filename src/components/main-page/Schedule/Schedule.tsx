@@ -19,31 +19,6 @@ export function Schedule() {
     returnObjects: true,
   }) as { name: string; agenda: Agenda[] }[];
 
-  function createScheduleElement(item: Agenda): JSX.Element {
-    const timer = scheduleList.find((el) => el.id === item.id);
-
-    let color: "blue" | "orange" | "lightBlue" = "blue";
-
-    if (timer) {
-      if (timer?.endTimestamp.getTime() < new Date().getTime())
-        color = "lightBlue";
-      else if (timer?.startTimestamp?.getTime() < new Date().getTime())
-        color = "orange";
-    }
-
-    return (
-      <ScheduleItem
-        title={item.title}
-        icon={item.icon as keyof typeof iconsSet}
-        startDate={item.start}
-        endDate={item.end}
-        key={item.id}
-        theme={color}
-        className={styles.scheduleItem}
-      />
-    );
-  }
-
   return (
     <Section id="schedule">
       <Heading withAccent>{t("schedule.title")}</Heading>
@@ -52,9 +27,35 @@ export function Schedule() {
           <Text size="xl" className={styles.dayTitle}>
             {day.name}
           </Text>
-          {day.agenda.map((item) => createScheduleElement(item))}
+          {day.agenda.map((item) => (
+            <ScheduleElement item={item} key={item.title} />
+          ))}
         </div>
       ))}
     </Section>
+  );
+}
+
+function ScheduleElement({ item }: { item: Agenda }): JSX.Element {
+  const timer = scheduleList.find((el) => el.id === item.id);
+
+  let color: "blue" | "orange" | "lightBlue" = "blue";
+
+  if (timer) {
+    if (timer?.endTimestamp.getTime() < new Date().getTime())
+      color = "lightBlue";
+    else if (timer?.startTimestamp?.getTime() < new Date().getTime())
+      color = "orange";
+  }
+
+  return (
+    <ScheduleItem
+      title={item.title}
+      icon={item.icon as keyof typeof iconsSet}
+      startDate={item.start}
+      endDate={item.end}
+      theme={color}
+      className={styles.scheduleItem}
+    />
   );
 }
