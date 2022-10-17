@@ -37,7 +37,7 @@ export function Schedule() {
   );
 }
 
-function ScheduleElement({ item }: { item: Agenda }): JSX.Element {
+function ScheduleElement({ item }: { item: Agenda }) {
   const timer = scheduleList.find((el) => el.id === item.id);
 
   let color: "blue" | "orange" | "lightBlue" = "blue";
