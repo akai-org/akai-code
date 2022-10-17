@@ -1,13 +1,13 @@
 import { useTranslation } from "next-i18next";
 import { Section, Heading, Text, ScheduleItem } from "components/ui";
-import { iconsSet } from "./../../ui/ScheduleItem/ScheduleItem";
+import { IconType } from "./../../ui/ScheduleItem/ScheduleItem";
 import { scheduleList } from "./config";
 import styles from "./Schedule.module.scss";
 
 type Agenda = {
   id: number;
   title: string;
-  icon?: string;
+  icon?: IconType;
   start: string;
   end: string;
 };
@@ -51,7 +51,7 @@ function ScheduleElement({ item }: { item: Agenda }): JSX.Element {
   return (
     <ScheduleItem
       title={item.title}
-      icon={item.icon as keyof typeof iconsSet}
+      icon={item.icon}
       startDate={item.start}
       endDate={item.end}
       theme={color}

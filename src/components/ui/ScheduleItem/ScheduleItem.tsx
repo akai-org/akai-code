@@ -3,14 +3,16 @@ import styles from "./ScheduleItem.module.scss";
 import { Icon } from "../";
 import { clock, qr, braces } from "../Icon";
 
-export const iconsSet = {
+const iconsSet = {
   clock,
   qr,
   braces,
 };
 
+export type IconType = keyof typeof iconsSet;
+
 type Props = {
-  icon?: keyof typeof iconsSet;
+  icon?: IconType;
   title: string;
   startDate: string;
   endDate: string;
