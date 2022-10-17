@@ -3,6 +3,7 @@ import { Section, Heading, Text, ScheduleItem } from "components/ui";
 import { IconType } from "./../../ui/ScheduleItem/ScheduleItem";
 import { scheduleList } from "./config";
 import styles from "./Schedule.module.scss";
+import dayjs from "dayjs";
 
 type Agenda = {
   id: number;
@@ -42,10 +43,12 @@ function ScheduleElement({ item }: { item: Agenda }): JSX.Element {
   let color: "blue" | "orange" | "lightBlue" = "blue";
 
   if (timer) {
-    if (timer?.endTimestamp.getTime() < new Date().getTime())
-      color = "lightBlue";
-    else if (timer?.startTimestamp?.getTime() < new Date().getTime())
-      color = "orange";
+    const timeStart = dayjs(timer.startTimestamp);
+    const timeEnd = dayjs(timer.endTimestamp);
+    const now = dayjs();
+
+    if (timeEnd.isBefore(now)) color = "lightBlue";
+    else if (timeStart.isBefore(now)) color = "orange";
   }
 
   return (
