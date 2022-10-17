@@ -25,12 +25,10 @@ export function Schedule() {
     let color: "blue" | "orange" | "lightBlue" = "blue";
 
     if (timer) {
-      color =
-        timer?.endTimestamp.getTime() < new Date().getTime()
-          ? "lightBlue"
-          : timer?.startTimestamp?.getTime() < new Date().getTime()
-          ? "orange"
-          : "blue";
+      if (timer?.endTimestamp.getTime() < new Date().getTime())
+        color = "lightBlue";
+      else if (timer?.startTimestamp?.getTime() < new Date().getTime())
+        color = "orange";
     }
 
     return (
