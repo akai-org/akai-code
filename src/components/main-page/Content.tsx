@@ -1,5 +1,13 @@
 import Head from "next/head";
-import { Hero, EventDetailsExtended, Registration, Partners, FAQ } from ".";
+import {
+  Hero,
+  EventDetailsExtended,
+  Registration,
+  About,
+  Location,
+  Partners,
+  FAQ,
+} from ".";
 
 export function Content() {
   return (
@@ -11,6 +19,8 @@ export function Content() {
       <Hero />
       <EventDetailsExtended />
       <Registration />
+      <About />
+      <Location />
       <Partners />
       <FAQ />
     </>

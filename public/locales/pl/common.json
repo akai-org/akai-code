@@ -56,9 +56,34 @@
   "about": {
     "title": "O nas",
     "paragraphs": [
-      "Pierwsza edycja hackatonu <strong>AKAI Code</strong> organizowanego przez <strong>AKAI</strong> - Akademickie Koło Aplikacji Internetowych - ma miejsce na <strong>Politechnice Poznańskiej</strong>.",
-      "Idea jest prosta! Kodujesz <strong>aplikację</strong> związaną z tematem konkursu w przeciągu <strong>24 godzin</strong> a jury decydują, który zespół wygra.",
-      "Są <strong>trzy kategorie</strong>, w których możesz rywalizować - Najlepszy pomysł, Najlepszy prototyp oraz Najlepsze użycie technologii. Jaki jest <strong>temat</strong>? Dowiecie się już wkrótce!"
+      "Cześć!",
+      "Jeżeli mamy powiedzieć coś krótko o sobie: jesteśmy informatykami, ale częściej niż przeciętnie wychodzimy na zewnątrz 😄. Dodajmy do tej mieszanki ambicję do stworzenia czegoś niezwykłego, a otrzymacie przepis na koordynatorów AKAI Code."
+    ],
+    "coordinators": [
+      {
+        "title": "Marcin - koordynator AKAI Code",
+        "description": "Zwany Rysiem, który potrafi perfekcyjnie naśladować baranka. Zrobiłby wszystko. Tylko nie fikołka."
+      },
+      {
+        "title": "Filip - koordynator ds. wydarzenia",
+        "description": "Gość z Google. Nienawidzi wolnego czasu, więc bierze się do wszystkiego. Nosi gogle steampunkowe. Dlaczego? Bo tak."
+      },
+      {
+        "title": "Michał - współkoordynator ds. wydarzenia",
+        "description": "W gimnazjum z kolegami robił freestylowe rap bitwy, ale po drodze coś mu nie wyszło i został programistą."
+      },
+      {
+        "title": "Kacper - współkoordynator ds. partnerów",
+        "description": "Akwarelista, miłośnik kawy, kociarz i sieciowiec? Nie. Miłośnik etrapeza, esteta, frontendowiec, który ciągle poszukuje legendarnego borsuka? Bingo!"
+      },
+      {
+        "title": "Paulina - współkoordynator ds. promocji",
+        "description": "Jest jak żaba. Jej skóra ma zawsze taką samą temperaturę co otoczenie. Mogła zostać profesjonalną tancerką, ale wolała kodzić apki."
+      },
+      {
+        "title": "Ula - wsparcie ds. partnerów i promocji",
+        "description": "Chciała tylko zorganizować  PUBQuiz w AKAI, ale rozpędziła się aż na hackathon. Marzy o robieniu stand upów, ale jak na razie pali wszystkie żarty."
+      }
     ]
   },
   "location": {
