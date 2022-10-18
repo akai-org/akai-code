@@ -207,6 +207,10 @@
           {
             "question": "Jak powinienem przygotować się na hackathon?",
             "answer": "Wyposaż się w laptopa, konto na platformie Discord, ciepłe ubrania i śpiwór (jeśli zamierzacie spać…)."
+          },
+          {
+            "question": "Czy na wydarzeniu będzie stały dostęp do prądu?",
+            "answer": "Tak! W każdej chwili możecie podładować swoje sprzęty."
           }
         ]
       }
