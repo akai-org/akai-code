@@ -38,6 +38,7 @@ export function Location() {
           <div className={styles.textWrapper}>
             <p className={styles.text}>{t("location.description1")}</p>
             <p className={styles.text}>{t("location.description2")}</p>
+            <p className={styles.text}>{t("location.description3")}</p>
           </div>
         </div>
       </div>

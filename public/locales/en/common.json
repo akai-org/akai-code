@@ -88,11 +88,12 @@
   },
   "location": {
     "title": "Location",
-    "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
-    "description2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
-    "location1": "Centrum wykładowe",
-    "location2": "Politechniki Poznańskiej",
-    "location3": "Kampus Piotrowo, Poznań"
+    "location1": "Lecture and Conference Centre",
+    "location2": "Poznan University of Technology",
+    "location3": "Piotrowo Campus",
+    "description1": "Politechnika stop: 13, 211, 220, 221.",
+    "description2": "Kórnicka stop: 3, 5, 6, 7, 9, 10, 12, 13, 14, 15, 17, 18, 98.",
+    "description3": "Baraniaka stop: 6, 7, 17, 98."
   },
   "partners": {
     "title": "Partners",
