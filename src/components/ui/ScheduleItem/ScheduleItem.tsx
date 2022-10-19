@@ -9,8 +9,10 @@ const iconsSet = {
   braces,
 };
 
+export type IconType = keyof typeof iconsSet;
+
 type Props = {
-  icon?: keyof typeof iconsSet;
+  icon?: IconType;
   title: string;
   startDate: string;
   endDate: string;
@@ -23,7 +25,7 @@ export function ScheduleItem({
   title,
   startDate,
   endDate,
-  theme = "lightBlue",
+  theme = "blue",
   className,
 }: Props) {
   return (

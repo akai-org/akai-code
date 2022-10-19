@@ -215,6 +215,29 @@
   "mentors": {
     "title": "Mentorzy & Jurorzy"
   },
+  "schedule": {
+    "title": "Schedule",
+    "days": [
+      {
+        "name": "04.11 - PIĄTEK",
+        "eventNames": {
+          "hackatonStart": "Start hackatonu",
+          "javaLecture": "Coś o Javie",
+          "graphQLforBegginers": "Wykład na temat GraphQL",
+          "rememberToBeHydrated": "Czas na picie wody 🍼"
+        }
+      },
+      {
+        "name": "05.11 - SOBOTA",
+        "eventNames": {
+          "pizzaForBreakfast": "Śniadanie 🍕",
+          "whyDjangoOnHackatonIsNotTheBestIdea": "Coś o programowaniu webowym w Pythonie",
+          "pizzaForLunch": "Obiad 🍕",
+          "pizzaForDinner": "Kolacja 🍕"
+        }
+      }
+    ]
+  },
   "footer": {
     "contact": "Kontakt",
     "akai": "AKAI - Akademickie Koło Aplikacji Internetowych"
