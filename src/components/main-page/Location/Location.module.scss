@@ -49,6 +49,17 @@
 
 .text {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.busIcon {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-white);
+  margin-right: var(--space-s);
+  flex: 0 0 24px;
 }
 
 .icon {

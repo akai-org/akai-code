@@ -1,7 +1,7 @@
 import { Heading, Section, Icon } from "components/ui";
 import dynamic from "next/dynamic";
 import { useTranslation } from "next-i18next";
-import { mapMarker } from "components/ui/Icon";
+import { bus, mapMarker } from "components/ui/Icon";
 import styles from "./Location.module.scss";
 
 const LocationMap = dynamic(
@@ -36,9 +36,18 @@ export function Location() {
             </div>
           </div>
           <div className={styles.textWrapper}>
-            <p className={styles.text}>{t("location.description1")}</p>
-            <p className={styles.text}>{t("location.description2")}</p>
-            <p className={styles.text}>{t("location.description3")}</p>
+            <p className={styles.text}>
+              <Icon icon={bus} className={styles.busIcon} />
+              {t("location.description1")}
+            </p>
+            <p className={styles.text}>
+              <Icon icon={bus} className={styles.busIcon} />
+              {t("location.description2")}
+            </p>
+            <p className={styles.text}>
+              <Icon icon={bus} className={styles.busIcon} />
+              {t("location.description3")}
+            </p>
           </div>
         </div>
       </div>
