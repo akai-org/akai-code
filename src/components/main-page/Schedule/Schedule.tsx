@@ -1,24 +1,15 @@
 import { useTranslation } from "next-i18next";
 import { Section, Heading, Text, ScheduleItem } from "components/ui";
-import { IconType } from "./../../ui/ScheduleItem/ScheduleItem";
 import { scheduleList } from "./config";
 import styles from "./Schedule.module.scss";
 import dayjs from "dayjs";
-
-type Agenda = {
-  id: number;
-  title: string;
-  icon?: IconType;
-  start: string;
-  end: string;
-};
 
 export function Schedule() {
   const { t } = useTranslation();
 
   const days = t("schedule.days", {
     returnObjects: true,
-  }) as { name: string; agenda: Agenda[] }[];
+  }) as { name: string; eventNames: { [key: string]: string } }[];
 
   return (
     <Section id="schedule">
@@ -28,23 +19,35 @@ export function Schedule() {
           <Text size="xl" className={styles.dayTitle}>
             {day.name}
           </Text>
-          {day.agenda.map((item) => (
-            <ScheduleElement item={item} key={item.title} />
-          ))}
+          {Object.keys(day.eventNames).map((key) => {
+            return (
+              <ScheduleElement
+                elementId={key}
+                title={day.eventNames[key]}
+                key={key}
+              />
+            );
+          })}
         </div>
       ))}
     </Section>
   );
 }
 
-function ScheduleElement({ item }: { item: Agenda }) {
-  const timer = scheduleList.find((el) => el.id === item.id);
+function ScheduleElement({
+  elementId,
+  title,
+}: {
+  elementId: string;
+  title: string;
+}) {
+  const config = scheduleList.find((el) => el.name === elementId);
 
   let color: "blue" | "orange" | "lightBlue" = "blue";
 
-  if (timer) {
-    const timeStart = dayjs(timer.startTimestamp);
-    const timeEnd = dayjs(timer.endTimestamp);
+  if (config) {
+    const timeStart = dayjs(config.startTimestamp);
+    const timeEnd = dayjs(config.endTimestamp);
     const now = dayjs();
 
     if (timeEnd.isBefore(now)) color = "lightBlue";
@@ -53,10 +56,10 @@ function ScheduleElement({ item }: { item: Agenda }) {
 
   return (
     <ScheduleItem
-      title={item.title}
-      icon={item.icon}
-      startDate={item.start}
-      endDate={item.end}
+      title={title}
+      icon={config?.icon}
+      startDate={config?.startTimeText || "XX:XX"}
+      endDate={config?.endTimeText || "XX:XX"}
       theme={color}
       className={styles.scheduleItem}
     />

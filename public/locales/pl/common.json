@@ -102,67 +102,21 @@
     "days": [
       {
         "name": "04.11 - PIĄTEK",
-        "agenda": [
-          {
-            "id": 1,
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "icon": "clock",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "id": 2,
-            "title": "COŚ z przeszłości",
-            "icon": "qr",
-            "start": "XX:XX",
-            "end": "XX:XX"
-          },
-          {
-            "id": 3,
-            "title": "COŚ z teraźniejszości",
-            "icon": "braces",
-            "start": "XX:XX",
-            "end": "XX:XX"
-          },
-          {
-            "id": 4,
-            "title": "COŚ z przyszłości 🛸",
-            "icon": "braces",
-            "start": "XX:XX",
-            "end": "XX:XX"
-          }
-        ]
+        "eventNames": {
+          "hackatonStart": "Start hackatonu",
+          "javaLecture": "Coś o Javie",
+          "graphQLforBegginers": "Wykład na temat GraphQL",
+          "rememberToBeHydrated": "Czas na picie wody 🍼"
+        }
       },
       {
         "name": "05.11 - SOBOTA",
-        "agenda": [
-          {
-            "id": 5,
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "icon": "clock",
-            "start": "12:00",
-            "end": "13:00"
-          },
-          {
-            "id": 6,
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 1",
-            "start": "XX:XX",
-            "end": "XX:XX"
-          },
-          {
-            "id": 7,
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 2",
-            "start": "XX:XX",
-            "end": "XX:XX"
-          },
-          {
-            "id": 8,
-            "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit? 3",
-            "icon": "clock",
-            "start": "XX:XX",
-            "end": "XX:XX"
-          }
-        ]
+        "eventNames": {
+          "pizzaForBreakfast": "Śniadanie 🍕",
+          "whyDjangoOnHackatonIsNotTheBestIdea": "Coś o programowaniu webowym w Pythonie",
+          "pizzaForLunch": "Obiad 🍕",
+          "pizzaForDinner": "Kolacja 🍕"
+        }
       }
     ]
   },
