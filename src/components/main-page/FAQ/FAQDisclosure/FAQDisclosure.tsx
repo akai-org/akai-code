@@ -4,6 +4,7 @@ import { Icon } from "components/ui";
 import styles from "./FAQDisclosure.module.scss";
 import { chevron } from "components/ui/Icon/index";
 import { Question } from "../FAQ";
+import { Trans } from "next-i18next";
 
 interface Props {
   FAQItem: Question;
@@ -32,7 +33,7 @@ export const FAQDisclosure = ({ FAQItem }: Props) => {
             <Disclosure.Panel
               className={classNames(styles.panel, { [styles.open]: open })}
             >
-              {FAQItem.answer}
+              <Trans components={{ a: <a /> }}>{FAQItem.answer}</Trans>
             </Disclosure.Panel>
           </Transition>
         </div>

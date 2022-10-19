@@ -6,4 +6,5 @@ export type Section =
   | "schedule"
   | "mentors"
   | "about"
+  | "partners"
   | "faq";

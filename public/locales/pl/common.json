@@ -1,7 +1,9 @@
 {
   "navigation": {
     "akaiCode": "AKAI Code",
-    "registration": "Rejestracja"
+    "registration": "Rejestracja",
+    "partners": "Partnerzy",
+    "faq": "FAQ"
   },
   "hero": {
     "title": "AKAI Code",
@@ -20,7 +22,27 @@
     "description": {
       "main": "Pierwsza edycja Hackatonu <strong>AKAI Code</strong> organizowana przez <strong>AKAI</strong> - Akademickie Koło Aplikacji Internetowych - odbędzie się na <strong>Politechnice Poznańskiej</strong>",
       "idea": "Założenie wydarzenia jest dziecinnie proste! Kodujesz przez <strong>24 godziny</strong> aplikację nawiązującą do tematu, a następnie jury decydują, która drużyna wygra.",
-      "categories": "Konkurować można w <strong>trzech kategoriach</strong> - Najlepszy pomysł, najlepszy prototyp i najlepsza zastosowana technologia (innowacyjność). Jaki będzie <strong>temat</strong>? Tego dowiecie się już wkrótce!"
+      "categories": "Konkurować można w <strong>trzech kategoriach</strong> - Najlepszy pomysł, najlepszy prototyp i najlepsze użycie technologii. Jaki będzie <strong>temat</strong>? Tego dowiecie się już wkrótce!"
+    },
+    "topic": {
+      "title": "Temat",
+      "topic": "Tematem 1. edycji AKAI Code jest <strong>\"Wpływ społeczny\"</strong>.",
+      "topicDescription": "Przedstawcie nam pomysł, który rozwiąże problem małej lub większej społeczności, której jesteś częścią.<br>Masz pomysł jak wesprzeć lokalny bank żywności? Najs! Wiesz jak pomóc schronisku zwierząt w swojej okolicy? Super! Wymyśliłeś rozwiązanie problemu starszej pani Jadzi? Let's go!<br>Znajdźcie swoją zagwostkę, rozłóżcie ją na czynniki pierwsze, wykmińcie rozwiązanie, a na końcu zabłyśnijcie przed jurorami!"
+    },
+    "categories": {
+      "title": "Kategorie",
+      "bestIdea": {
+        "title": "Najlepszy pomysł",
+        "description": "Najciekawsza inicjatywa, która rozwiązuje w interesujący i realny sposób problem Waszej społeczności."
+      },
+      "bestPrototype": {
+        "title": "Najlepszy prototyp",
+        "description": "Najlepsze zrealizowanie pomysłu, czyli najtrafniejszy sposób wykonania pomysłu."
+      },
+      "bestTechnology": {
+        "title": "Najlepsze użycie technologii",
+        "description": "Najlepsze techniczne wykonanie projektu, czyli wybór technologii, zaprogramowanie, czy sprytne rozwiązania softwarowe"
+      }
     }
   },
   "registration": {
@@ -47,48 +69,144 @@
     "location2": "Politechniki Poznańskiej",
     "location3": "Kampus Piotrowo, Poznań"
   },
-  "faq": {
-    "title": "FAQ",
-    "sections": [
+  "partners": {
+    "title": "Partnerzy",
+    "categories": [
       {
-        "title": "Sekcja 1",
-        "questions": [
+        "name": "Sponsorzy nagród",
+        "companies": [
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "name": "Nobl9",
+            "url": "https://www.nobl9.com/",
+            "logo": "nobl9.png"
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "name": "Wunderman Thompson",
+            "url": "https://www.wundermanthompson.com/",
+            "logo": "wtt.png"
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
-          },
-          {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "name": "Sollers Consulting",
+            "url": "https://sollers.eu/",
+            "logo": "sollers.png"
           }
         ]
       },
       {
-        "title": "Sekcja 2",
+        "name": "Wspierają nas",
+        "companies": [
+          {
+            "name": "WithSecure",
+            "url": "https://www.withsecure.com/",
+            "logo": "withsecure.png"
+          },
+          {
+            "name": "All for One",
+            "url": "https://www.all-for-one.pl/",
+            "logo": "allforone.png"
+          },
+          {
+            "name": "Capgemini",
+            "url": "https://www.capgemini.com/",
+            "logo": "capgemini.jpg"
+          },
+          {
+            "name": "AppUnite",
+            "url": "https://appunite.com/",
+            "logo": "appunite.png"
+          },
+          {
+            "name": "Inetum",
+            "url": "https://inetum.pl/",
+            "logo": "inetum.png"
+          }
+        ]
+      },
+      {
+        "name": "Partnerzy medialni",
+        "companies": [
+          {
+            "name": "HackYeah",
+            "url": "https://hackyeah.pl/",
+            "logo": "hackyeah.jpg"
+          },
+          {
+            "name": "meet.js",
+            "url": "https://summit.meetjs.pl/",
+            "logo": "meetjs.png"
+          },
+          {
+            "name": "Radio Afera",
+            "url": "https://www.afera.com.pl/",
+            "logo": "afera.png"
+          }
+        ]
+      },
+      {
+        "name": "Przy współpracy",
+        "companies": [
+          {
+            "name": "Politechnika Poznańska",
+            "url": "https://www.put.poznan.pl/",
+            "logo": "politechnika.png"
+          },
+          {
+            "name": "Wydział Informatyki i Telekomunikacji",
+            "url": "https://cat.put.poznan.pl",
+            "logo": "wiit.png"
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "FAQ",
+    "sections": [
+      {
         "questions": [
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Czy trzeba umieć programować?",
+            "answer": "Nie! Można zrobić prezentację, makietę, mock-up, co tylko chcecie. Tylko zaprezentujcie jury swój pomysł."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Czy udział jest płatny?",
+            "answer": "Nie, udział jest bezpłatny."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Czy będą nagrody?",
+            "answer": "Tak. Wasze wysiłki muszą zostać wynagrodzone."
           },
           {
-            "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-            "answer": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi."
+            "question": "Kto może wziąć udział?",
+            "answer": "Minimalny wiek uczestnika to 15 lat. Jednak jeśli w drużynie jest osoba niepełnoletnia, to musi mieć ona pełnoletniego opiekuna."
+          },
+          {
+            "question": "Czy osoba z drużyny może być opiekunem osoby niepełnoletniej?",
+            "answer": "Tak! Jedynym wymaganiem jest, że muszą być w tej samej drużynie."
+          },
+          {
+            "question": "Czy mogę być w paru drużynach?",
+            "answer": "Niestety nie!"
+          },
+          {
+            "question": "Ile osób może być w drużynie?",
+            "answer": "Drużyna to od 1 do 6 osób, łącznie z kapitanem."
+          },
+          {
+            "question": "Mamy drużynę, co teraz?",
+            "answer": "Kapitan musi zarejestrować drużynę na: <a href=\"https://samorzad.put.poznan.pl/akai-rejestracja-zespolu\" target=\"_blank\">https://samorzad.put.poznan.pl/akai-rejestracja-zespolu<a>."
+          },
+          {
+            "question": "Dlaczego w formularzu zgłoszeniowym muszę podać dietę każdego członka?",
+            "answer": "Jest to pytanie orientacyjne, które pozwoli nam przygotować odpowiednią ilość jedzenia."
+          },
+          {
+            "question": "Czy można zmieniać dane po zatwierdzeniu formularza zgłoszeniowego?",
+            "answer": "Tak. Wystarczy napisać do nas na Facebooku, a my wszystko poprawimy."
+          },
+          {
+            "question": "Jak powinienem przygotować się na hackathon?",
+            "answer": "Wyposaż się w laptopa, konto na platformie Discord, ciepłe ubrania i śpiwór (jeśli zamierzacie spać…)."
           }
         ]
       }
