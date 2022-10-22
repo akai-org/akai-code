@@ -56,18 +56,44 @@
   "about": {
     "title": "O nas",
     "paragraphs": [
-      "Pierwsza edycja hackatonu <strong>AKAI Code</strong> organizowanego przez <strong>AKAI</strong> - Akademickie Koło Aplikacji Internetowych - ma miejsce na <strong>Politechnice Poznańskiej</strong>.",
-      "Idea jest prosta! Kodujesz <strong>aplikację</strong> związaną z tematem konkursu w przeciągu <strong>24 godzin</strong> a jury decydują, który zespół wygra.",
-      "Są <strong>trzy kategorie</strong>, w których możesz rywalizować - Najlepszy pomysł, Najlepszy prototyp oraz Najlepsze użycie technologii. Jaki jest <strong>temat</strong>? Dowiecie się już wkrótce!"
+      "Cześć!",
+      "Jeżeli mamy powiedzieć coś krótko o sobie: jesteśmy informatykami, ale częściej niż przeciętnie wychodzimy na zewnątrz 😄. Dodajmy do tej mieszanki ambicję do stworzenia czegoś niezwykłego, a otrzymacie przepis na koordynatorów AKAI Code."
+    ],
+    "coordinators": [
+      {
+        "title": "Marcin - koordynator AKAI Code",
+        "description": "Zwany Rysiem, który potrafi perfekcyjnie naśladować baranka. Zrobiłby wszystko. Tylko nie fikołka."
+      },
+      {
+        "title": "Filip - koordynator ds. wydarzenia",
+        "description": "Gość z Google. Nienawidzi wolnego czasu, więc bierze się do wszystkiego. Nosi gogle steampunkowe. Dlaczego? Bo tak."
+      },
+      {
+        "title": "Michał - współkoordynator ds. wydarzenia",
+        "description": "W gimnazjum z kolegami robił freestylowe rap bitwy, ale po drodze coś mu nie wyszło i został programistą."
+      },
+      {
+        "title": "Kacper - współkoordynator ds. partnerów",
+        "description": "Akwarelista, miłośnik kawy, kociarz i sieciowiec? Nie. Miłośnik etrapeza, esteta, frontendowiec, który ciągle poszukuje legendarnego borsuka? Bingo!"
+      },
+      {
+        "title": "Paulina - współkoordynator ds. promocji",
+        "description": "Jest jak żaba. Jej skóra ma zawsze taką samą temperaturę co otoczenie. Mogła zostać profesjonalną tancerką, ale wolała kodzić apki."
+      },
+      {
+        "title": "Ula - wsparcie ds. partnerów i promocji",
+        "description": "Chciała tylko zorganizować  PUBQuiz w AKAI, ale rozpędziła się aż na hackathon. Marzy o robieniu stand upów, ale jak na razie pali wszystkie żarty."
+      }
     ]
   },
   "location": {
     "title": "Lokalizacja",
-    "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
-    "description2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
-    "location1": "Centrum wykładowe",
+    "location1": "Centrum Wykładowe",
     "location2": "Politechniki Poznańskiej",
-    "location3": "Kampus Piotrowo, Poznań"
+    "location3": "Kampus Piotrowo, Poznań",
+    "description1": "Przystanek Politechnika: 13, 211, 220, 221.",
+    "description2": "Przystanek Kórnicka: 3, 5, 6, 7, 9, 10, 12, 13, 14, 15, 17, 18, 98.",
+    "description3": "Przystanek Baraniaka: 6, 7, 17, 98."
   },
   "partners": {
     "title": "Partnerzy",
@@ -207,6 +233,10 @@
           {
             "question": "Jak powinienem przygotować się na hackathon?",
             "answer": "Wyposaż się w laptopa, konto na platformie Discord, ciepłe ubrania i śpiwór (jeśli zamierzacie spać…)."
+          },
+          {
+            "question": "Czy na wydarzeniu będzie stały dostęp do prądu?",
+            "answer": "Tak! W każdej chwili możecie podładować swoje sprzęty."
           }
         ]
       }
