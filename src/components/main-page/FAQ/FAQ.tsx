@@ -9,7 +9,7 @@ export type Question = {
 };
 
 interface Section {
-  title: string;
+  title?: string;
   questions: Question[];
 }
 
@@ -24,8 +24,8 @@ export const FAQ = () => {
       </Heading>
 
       <div>
-        {sections.map(({ title, questions }) => (
-          <div className={styles.questionsContainer} key={title}>
+        {sections.map(({ title, questions }, index: number) => (
+          <div className={styles.questionsContainer} key={title || index}>
             {title && <p className={styles.sectionTitle}>{title}</p>}
             {questions.map((question) => (
               <FAQDisclosure key={question.question} FAQItem={question} />

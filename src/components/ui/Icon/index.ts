@@ -11,4 +11,5 @@ export {
   mdiLightbulbOnOutline as lightBulb,
   mdiCogOutline as cog,
   mdiHammerWrench as hammerWrench,
+  mdiBus as bus,
 } from "@mdi/js";

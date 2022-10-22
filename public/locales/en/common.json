@@ -56,18 +56,44 @@
   "about": {
     "title": "About us",
     "paragraphs": [
-      "The first edition of the <strong>AKAI Code</strong> hackathon organized by <strong>AKAI</strong> - Akademickie Koło Aplikacji Internetowych - takes place at the <strong>Poznań University of Technology</strong>.",
-      "The idea of an event is simple! You code an <strong>application</strong> related to the topic within <strong>24 hours</strong> and then the jury decides which team will win.",
-      "There are <strong>three categories</strong> to compete in - Best Idea, Best Prototype and Best use of technology. What's the <strong>topic</strong>? You'll find out soon!"
+      "Hi!",
+      "If we have to say something briefly about ourselves: we are computer scientists, but more often than rarely we go outside 😄. Let's add to this mix the ambition to create something incredible, and you get a recipe for AKAI Code Coordinators."
+    ],
+    "coordinators": [
+      {
+        "title": "Marcin - AKAI Code coordinator",
+        "description": "Called Lynx, who can imitate a ram perfectly.  He would do anything, but not somersault."
+      },
+      {
+        "title": "Filip - event coordinator",
+        "description": "the guy from Google. He hates free time, so he takes everything to do. He wears steampunk goggles. Why? Just because."
+      },
+      {
+        "title": "Michał - event co-coordinator",
+        "description": "used to do freestyle rap battles with his friends in middle school, but something didn't work out along the way and he became a programmer."
+      },
+      {
+        "title": "Kacper - co-coordinator for partners",
+        "description": "Watercolor artist, coffee lover, cat person and network administrator? No. E-trapeze lover, an aesthete, a front-end engineer, who is still looking for the legendary badger? Bingo!"
+      },
+      {
+        "title": "Paulina - co-promotion coordinator",
+        "description": "She is like a frog. Her skin is always the same temperature as surroundings. She could have become a professional dancer, but she preferred coding apps. "
+      },
+      {
+        "title": "Ula - partner and promotion support",
+        "description": "She just wanted to organize a PUBQuiz in AKAI, but she strutted all the way to a hackathon. She dreams of doing stand-ups, but so far she blows all the jokes."
+      }
     ]
   },
   "location": {
     "title": "Location",
-    "description1": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
-    "description2": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo corrupti tenetur perferendis, voluptatibus accusantium distinctio dolores blanditiis quas, vitae veritatis corporis! Modi sed nostrum commodi.",
-    "location1": "Centrum wykładowe",
-    "location2": "Politechniki Poznańskiej",
-    "location3": "Kampus Piotrowo, Poznań"
+    "location1": "Lecture and Conference Centre",
+    "location2": "Poznan University of Technology",
+    "location3": "Piotrowo Campus",
+    "description1": "Politechnika stop: 13, 211, 220, 221.",
+    "description2": "Kórnicka stop: 3, 5, 6, 7, 9, 10, 12, 13, 14, 15, 17, 18, 98.",
+    "description3": "Baraniaka stop: 6, 7, 17, 98."
   },
   "partners": {
     "title": "Partners",
@@ -207,6 +233,10 @@
           {
             "question": "How should I prepare for the hackathon?",
             "answer": "Equip yourself with a laptop, an account on the Discord platform, warm clothes and a sleeping bag (if you consider sleeping…)."
+          },
+          {
+            "question": "Will there be constant access to electricity at the event?",
+            "answer": "Yes! You can charge your equipment at any time."
           }
         ]
       }
