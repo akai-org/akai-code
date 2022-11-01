@@ -243,7 +243,12 @@
     ]
   },
   "mentors": {
-    "title": "Mentorzy & Jurorzy"
+    "title": "Mentorzy & Jurorzy",
+    "roles": {
+      "jury": "Jury",
+      "mentor": "Mentor",
+      "speaker": "Prelegent"
+    }
   },
   "schedule": {
     "title": "Plan wydarzenia",

@@ -6,7 +6,7 @@ export type CardType = {
   image?: string;
   name: string;
   company?: string;
-  role: string;
+  role: string | string[];
   className?: string;
 };
 
