@@ -247,6 +247,7 @@
   },
   "schedule": {
     "title": "Schedule",
+    "info": "Details of the schedule are subject to change.",
     "days": [
       {
         "name": "04.11 - FRIDAY",

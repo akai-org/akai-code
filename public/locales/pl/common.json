@@ -247,6 +247,7 @@
   },
   "schedule": {
     "title": "Plan wydarzenia",
+    "info": "Szczegóły harmonogramu mogą ulec zmianie.",
     "days": [
       {
         "name": "04.11 - PIĄTEK",

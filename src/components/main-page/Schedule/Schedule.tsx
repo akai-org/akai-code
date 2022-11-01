@@ -30,6 +30,9 @@ export function Schedule() {
           })}
         </div>
       ))}
+      <Text size="m" className={styles.additionalInfo}>
+        {t("schedule.info")}
+      </Text>
     </Section>
   );
 }
