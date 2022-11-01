@@ -12,4 +12,12 @@ export {
   mdiCogOutline as cog,
   mdiHammerWrench as hammerWrench,
   mdiBus as bus,
+  mdiCalendar as calendar,
+  mdiXml as xml,
+  mdiSchool as school,
+  mdiPizza as pizza,
+  mdiSend as send,
+  mdiProjectorScreen as screen,
+  mdiSendLock as sendLock,
+  mdiPartyPopper as party,
 } from "@mdi/js";

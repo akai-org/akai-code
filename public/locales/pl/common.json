@@ -246,24 +246,37 @@
     "title": "Mentorzy & Jurorzy"
   },
   "schedule": {
-    "title": "Schedule",
+    "title": "Plan wydarzenia",
     "days": [
       {
         "name": "04.11 - PIĄTEK",
         "eventNames": {
-          "hackatonStart": "Start hackatonu",
-          "javaLecture": "Coś o Javie",
-          "graphQLforBegginers": "Wykład na temat GraphQL",
-          "rememberToBeHydrated": "Czas na picie wody 🍼"
+          "hackatonStart": "Start wydarzenia",
+          "firstBreak": "Przerwa",
+          "serviceLevelObjectives": "Prelekcja: Łukasz Dobek z Nobl9 - „Service Level Objectives”",
+          "secondBreak": "Przerwa",
+          "modernAppPerformance": "Prelekcja: Piotr Jabłoński z WithSecure - „Wydajność nowoczesnych aplikacji internetowych - po co przejmować się kilobajtami w 2022 roku?”",
+          "thirdBreak": "Przerwa",
+          "accessibilityInApps": "Prelekcja: Jan Śmiełowski, Mikołaj Szymczak z All for one - „O dostępności, czyli jak napisać aplikację przyjazną każdemu użytkownikowi”",
+          "fourthBreak": "Przerwa",
+          "hackatonGuide": "Prelekcja Robert Banaszak z Talkie.ai - „Hackathon survival guide, czyli jak wynieść najwięcej wartości z hackathonu”",
+          "endOfDay": "Zamknięcie dnia"
         }
       },
       {
         "name": "05.11 - SOBOTA",
         "eventNames": {
-          "pizzaForBreakfast": "Śniadanie 🍕",
-          "whyDjangoOnHackatonIsNotTheBestIdea": "Coś o programowaniu webowym w Pythonie",
-          "pizzaForLunch": "Obiad 🍕",
-          "pizzaForDinner": "Kolacja 🍕"
+          "morningStart": "Poranek Kojota",
+          "breakfast": "Śniadanie",
+          "logicApp": "Prelekcja: Dawid Chróścielski z AJTiTi – „Logic App i Programowanie Wizualne”",
+          "serverless": "Prelekcja: Kacper Chomicz z WTT - „Nowoczesne architektury aplikacji - serverless w chmurze”",
+          "lunchBreak": "Obiad",
+          "dancingTime": "Belgijka",
+          "agileLecture": "Prelekcja: Joanna Zakrocka z Inetum – „Umysł w trybie Agile”",
+          "timeForSubmitting": "Czas na nadsyłanie prac",
+          "endOfSubmitting": "Koniec nadsyłania prac",
+          "projectsPresentations": "Prezentacje projektów",
+          "closingCeremony": "Zamknięcie wydarzenia oraz ogłoszenie zwycięzców"
         }
       }
     ]

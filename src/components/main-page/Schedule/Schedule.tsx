@@ -59,7 +59,7 @@ function ScheduleElement({
       title={title}
       icon={config?.icon}
       startDate={config?.startTimeText || "XX:XX"}
-      endDate={config?.endTimeText || "XX:XX"}
+      endDate={config?.endTimeText}
       theme={color}
       className={styles.scheduleItem}
     />
