@@ -16,6 +16,7 @@ export function Mentors() {
             company={person.company}
             role={person.role}
             image={person.image}
+            className={styles.card}
             key={person.name}
           />
         ))}

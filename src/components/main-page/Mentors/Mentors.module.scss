@@ -9,6 +9,10 @@
   color: var(--color-black);
 }
 
+.card {
+  height: 100%;
+}
+
 // tablet
 @media (min-width: 480px) {
   .cardContainer {
