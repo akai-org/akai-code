@@ -37,7 +37,6 @@ export const mentorsData: CardType[] = [
     role: "Jury",
     image: "/images/people/marcin_sylka.jpg",
   },
-  ////
   {
     name: "Dawid Chróścielski",
     company: "AjTiTi",
@@ -86,7 +85,6 @@ export const mentorsData: CardType[] = [
     role: "Prelegent",
     image: "/images/people/kacper_chomicz.jpg",
   },
-  ////
   {
     name: "Jacek Tomaszewski",
     company: "AppUnite",

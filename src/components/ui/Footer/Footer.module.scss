@@ -19,6 +19,11 @@
   & + & {
     margin-top: var(--space-m);
   }
+
+  .statueText {
+    display: block;
+    text-align: right;
+  }
 }
 
 .logo {

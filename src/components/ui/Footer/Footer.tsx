@@ -55,7 +55,12 @@ export function Footer({}) {
             {t("footer.contact")}:{" "}
             <a href="mailto:kontakt@akai.org.pl">kontakt@akai.org.pl</a>
           </p>
-          <p>&copy; 2022 {t("footer.akai")}</p>
+          <div>
+            <a href="/statue_2022.pdf" className={styles.statueText}>
+              {t("footer.statue")}
+            </a>
+            <p>&copy; 2022 {t("footer.akai")}</p>
+          </div>
         </div>
       </div>
     </footer>
