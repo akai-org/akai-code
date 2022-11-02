@@ -14,16 +14,9 @@ export function Mentors() {
           <Card
             name={person.name}
             company={person.company}
-            role={
-              typeof person.role === "object"
-                ? person.role.reduce(
-                    (prev: string, next: string) =>
-                      `${t("mentors.roles." + prev)}/${t(
-                        "mentors.roles." + next,
-                      )}`,
-                  )
-                : t("mentors.roles." + person.role)
-            }
+            role={person.role
+              .map((elem) => t(`mentors.roles.${elem}`))
+              .join("/")}
             image={person.image}
             className={styles.card}
             key={person.name}

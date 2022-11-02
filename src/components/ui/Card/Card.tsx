@@ -2,11 +2,11 @@
 import styles from "./Card.module.scss";
 import classNames from "classnames";
 
-export type CardType = {
+type CardType = {
   image?: string;
   name: string;
   company?: string;
-  role: string | string[];
+  role: string;
   className?: string;
 };
 
