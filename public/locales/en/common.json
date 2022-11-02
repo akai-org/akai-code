@@ -248,6 +248,11 @@
       "jury": "Jury",
       "mentor": "Mentor",
       "speaker": "Speaker"
+    },
+    "groups": {
+      "jury": "Jury",
+      "mentors": "Mentors",
+      "speakers": "Speakers"
     }
   },
   "schedule": {

@@ -8,21 +8,25 @@ export function Mentors() {
 
   return (
     <Section variant="blue" id="mentors">
-      <Heading withAccent>{t("mentors.title")}</Heading>
-      <div className={styles.cardContainer}>
-        {mentorsData.map((person) => (
-          <Card
-            name={person.name}
-            company={person.company}
-            role={person.role
-              .map((elem) => t(`mentors.roles.${elem}`))
-              .join("/")}
-            image={person.image}
-            className={styles.card}
-            key={person.name}
-          />
-        ))}
-      </div>
+      {mentorsData.map((elem) => (
+        <>
+          <Heading withAccent>{t(`mentors.groups.${elem.group}`)}</Heading>
+          <div className={styles.cardContainer}>
+            {elem.data.map((person) => (
+              <Card
+                name={person.name}
+                company={person.company}
+                role={person.role
+                  .map((elem) => t(`mentors.roles.${elem}`))
+                  .join("/")}
+                image={person.image}
+                className={styles.card}
+                key={person.name}
+              />
+            ))}
+          </div>
+        </>
+      ))}
     </Section>
   );
 }
