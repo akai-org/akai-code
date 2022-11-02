@@ -259,7 +259,7 @@
         "eventNames": {
           "hackatonStart": "Start of the event",
           "firstBreak": "Break",
-          "serviceLevelObjectives": "Lecture: Łukasz Dobek from Nobl9 - \"Service Level Objectives\"",
+          "serviceLevelObjectives": "Lecture: Łukasz Dobek from Nobl9 - \"Introduction to Service Level Objectives\"",
           "secondBreak": "Break",
           "modernAppPerformance": "Lecture: Piotr Jabłoński from WithSecure - \"Performance of modern web applications - why bother with kilobytes in 2022?\"",
           "thirdBreak": "Break",

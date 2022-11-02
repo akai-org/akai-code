@@ -51,13 +51,13 @@ export const mentorsData: CardConfigType[] = [
   {
     name: "Jan Śmiełowski",
     company: "All For One",
-    role: ["speaker"],
+    role: ["speaker", "mentor"],
     image: "/images/people/jan_smielowski.jpg",
   },
   {
     name: "Mikołaj Szymczak",
     company: "All For One",
-    role: ["speaker"],
+    role: ["speaker", "mentor"],
     image: "/images/people/mikolaj_szymczak.jpg",
   },
   {
@@ -115,7 +115,7 @@ export const mentorsData: CardConfigType[] = [
     image: "/images/people/kasia_zemka.jpg",
   },
   {
-    name: "Krzysztof Sitek",
+    name: "Krzysztof Skitek",
     company: "Nobl9",
     role: ["mentor"],
     image: "/images/people/krzysztof_skitek.jpg",
