@@ -259,13 +259,13 @@
         "eventNames": {
           "hackatonStart": "Start of the event",
           "firstBreak": "Break",
-          "serviceLevelObjectives": "Lecture: Łukasz Dobek from Nobl9 - „Service Level Objectives”",
+          "serviceLevelObjectives": "Lecture: Łukasz Dobek from Nobl9 - \"Service Level Objectives\"",
           "secondBreak": "Break",
-          "modernAppPerformance": "Lecture: Piotr Jabłoński from WithSecure - „Performance of modern web applications - why bother with kilobytes in 2022?”",
+          "modernAppPerformance": "Lecture: Piotr Jabłoński from WithSecure - \"Performance of modern web applications - why bother with kilobytes in 2022?\"",
           "thirdBreak": "Break",
-          "accessibilityInApps": "Lecture: Jan Śmiełowski, Mikołaj Szymczak from All for one - „About accessibility, or how to write an application that is friendly to every user”",
+          "accessibilityInApps": "Lecture: Jan Śmiełowski, Mikołaj Szymczak from All for one - \"About accessibility, or how to write an application that is friendly to every user\"",
           "fourthBreak": "Break",
-          "hackatonGuide": "Lecture by Robert Banaszak from Talkie.ai - „Hackathon survival guide, or how to get the most value out of a hackathon”",
+          "hackatonGuide": "Lecture: Robert Banaszak from Talkie.ai - \"Hackathon survival guide, or how to get the most value out of a hackathon\"",
           "endOfDay": "Closing of the day"
         }
       },
@@ -274,11 +274,11 @@
         "eventNames": {
           "morningStart": "Coyote morning",
           "breakfast": "Breakfast",
-          "logicApp": "Lecture: Dawid Chróścielski from AJTiTi - „Logic App and Visual Programming”",
-          "serverless": "Lecture: Kacper Chomicz from WTT - „Modern Application Architectures - Serverless in the Cloud”",
+          "logicApp": "Lecture: Dawid Chróścielski from AJTiTi - \"Logic App and Visual Programming\"",
+          "serverless": "Lecture: Kacper Chomicz from WTT - \"Modern Application Architectures - Serverless in the Cloud\"",
           "lunchBreak": "Lunch",
           "dancingTime": "Chapelloise",
-          "agileLecture": "Keynote speaker: Joanna Zakrocka from Inetum - „Mind in Agile mode”",
+          "agileLecture": "Keynote speaker: Joanna Zakrocka from Inetum - \"Mind in Agile mode\"",
           "timeForSubmitting": "Time for submitting projects",
           "endOfSubmitting": "End of submission of projects",
           "projectsPresentations": "Projects presentations",
