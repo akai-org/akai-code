@@ -243,7 +243,6 @@
     ]
   },
   "mentors": {
-    "title": "Mentors & Jurors",
     "roles": {
       "jury": "Jury",
       "mentor": "Mentor",

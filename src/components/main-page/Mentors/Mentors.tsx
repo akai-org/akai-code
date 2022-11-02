@@ -9,7 +9,7 @@ export function Mentors() {
   return (
     <Section variant="blue" id="mentors">
       {mentorsData.map((elem) => (
-        <>
+        <div key={elem.group}>
           <Heading withAccent>{t(`mentors.groups.${elem.group}`)}</Heading>
           <div className={styles.cardContainer}>
             {elem.data.map((person) => (
@@ -25,7 +25,7 @@ export function Mentors() {
               />
             ))}
           </div>
-        </>
+        </div>
       ))}
     </Section>
   );
