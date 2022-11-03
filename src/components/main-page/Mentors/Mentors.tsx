@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { Heading, Section, Card } from "components/ui";
 import { useTranslation } from "next-i18next";
 import { mentorsData } from "./config";
@@ -9,7 +10,7 @@ export function Mentors() {
   return (
     <Section variant="blue" id="mentors">
       {mentorsData.map((elem) => (
-        <div key={elem.group}>
+        <Fragment key={elem.group}>
           <Heading withAccent>{t(`mentors.groups.${elem.group}`)}</Heading>
           <div className={styles.cardContainer}>
             {elem.data.map((person) => (
@@ -25,7 +26,7 @@ export function Mentors() {
               />
             ))}
           </div>
-        </div>
+        </Fragment>
       ))}
     </Section>
   );
