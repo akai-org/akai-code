@@ -1,12 +1,32 @@
 import classNames from "classnames";
 import styles from "./ScheduleItem.module.scss";
 import { Icon } from "../";
-import { clock, qr, braces } from "../Icon";
+import {
+  clock,
+  qr,
+  braces,
+  calendar,
+  xml,
+  school,
+  pizza,
+  send,
+  screen,
+  sendLock,
+  party,
+} from "../Icon";
 
 const iconsSet = {
   clock,
   qr,
   braces,
+  calendar,
+  xml,
+  school,
+  pizza,
+  send,
+  screen,
+  sendLock,
+  party,
 };
 
 export type IconType = keyof typeof iconsSet;
@@ -15,7 +35,7 @@ type Props = {
   icon?: IconType;
   title: string;
   startDate: string;
-  endDate: string;
+  endDate?: string;
   theme?: "lightBlue" | "blue" | "orange";
   className?: string;
 };
@@ -35,9 +55,7 @@ export function ScheduleItem({
       </div>
       <div className={styles.textContainer}>
         <h4>{title}</h4>
-        <p>
-          {startDate} - {endDate}
-        </p>
+        <p>{endDate ? `${startDate} - ${endDate}` : startDate}</p>
       </div>
     </div>
   );

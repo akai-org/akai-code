@@ -6,6 +6,12 @@
   margin: var(--space-l) 0;
 }
 
+.additionalInfo {
+  text-align: center;
+  font-weight: 700;
+  margin-top: var(--space-2xl);
+}
+
 // tablet & desktop
 @media (min-width: 480px) {
   .scheduleItem {

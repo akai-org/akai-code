@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "./Card.module.scss";
 import classNames from "classnames";
 

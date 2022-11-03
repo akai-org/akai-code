@@ -30,6 +30,9 @@ export function Schedule() {
           })}
         </div>
       ))}
+      <Text size="m" className={styles.additionalInfo}>
+        {t("schedule.info")}
+      </Text>
     </Section>
   );
 }
@@ -59,7 +62,7 @@ function ScheduleElement({
       title={title}
       icon={config?.icon}
       startDate={config?.startTimeText || "XX:XX"}
-      endDate={config?.endTimeText || "XX:XX"}
+      endDate={config?.endTimeText}
       theme={color}
       className={styles.scheduleItem}
     />

@@ -243,34 +243,58 @@
     ]
   },
   "mentors": {
-    "title": "Mentors & Jurors"
+    "roles": {
+      "jury": "Jury",
+      "mentor": "Mentor",
+      "speaker": "Speaker"
+    },
+    "groups": {
+      "jury": "Jury",
+      "mentors": "Mentors",
+      "speakers": "Speakers"
+    }
   },
   "schedule": {
     "title": "Schedule",
+    "info": "Details of the schedule are subject to change.",
     "days": [
       {
         "name": "04.11 - FRIDAY",
         "eventNames": {
-          "hackatonStart": "Hackaton starts",
-          "javaLecture": "Something about Java",
-          "graphQLforBegginers": "GraphQL Lecture",
-          "rememberToBeHydrated": "Time for drinking water 🍼"
+          "hackatonStart": "Start of the event",
+          "firstBreak": "Break",
+          "serviceLevelObjectives": "Lecture: Łukasz Dobek from Nobl9 - \"Introduction to Service Level Objectives\"",
+          "secondBreak": "Break",
+          "modernAppPerformance": "Lecture: Piotr Jabłoński from WithSecure - \"Performance of modern web applications - why bother with kilobytes in 2022?\"",
+          "thirdBreak": "Break",
+          "accessibilityInApps": "Lecture: Jan Śmiełowski, Mikołaj Szymczak from All For One - \"About accessibility, or how to write an application that is friendly to every user\"",
+          "fourthBreak": "Break",
+          "hackatonGuide": "Lecture: Robert Banaszak from Talkie.ai - \"Hackathon survival guide, or how to get the most value out of a hackathon\"",
+          "endOfDay": "Closing of the day"
         }
       },
       {
         "name": "05.11 - SATURDAY",
         "eventNames": {
-          "pizzaForBreakfast": "Breakfast time 🍕",
-          "whyDjangoOnHackatonIsNotTheBestIdea": "Something about web programming in Python",
-          "pizzaForLunch": "Lunch time 🍕",
-          "pizzaForDinner": "Dinner time 🍕"
+          "morningStart": "Coyote morning",
+          "breakfast": "Breakfast",
+          "logicApp": "Lecture: Dawid Chróścielski from AJTiTi - \"Logic App and Visual Programming\"",
+          "serverless": "Lecture: Kacper Chomicz from WTT - \"Modern Application Architectures - Serverless in the Cloud\"",
+          "lunchBreak": "Lunch",
+          "dancingTime": "Chapelloise",
+          "agileLecture": "Keynote speaker: Joanna Zakrocka from Inetum - \"Mind in Agile mode\"",
+          "timeForSubmitting": "Time for submitting projects",
+          "endOfSubmitting": "End of projects submission",
+          "projectsPresentations": "Projects presentations",
+          "closingCeremony": "Closing ceremony and winners announcement"
         }
       }
     ]
   },
   "footer": {
     "contact": "Contact",
-    "akai": "AKAI - Academic Web Application Research Group"
+    "akai": "AKAI - Academic Web Application Research Group",
+    "statute": "Event regulations"
   },
   "language": {
     "pl": "PL",

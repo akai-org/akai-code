@@ -1,12 +1,21 @@
 .cardContainer {
   display: grid;
   margin-top: var(--space-2xl);
+  margin-bottom: var(--space-2xl);
   grid-template-columns: repeat(1, var(--card-width));
   align-items: center;
   justify-content: center;
   justify-items: center;
   row-gap: var(--space-l);
   color: var(--color-black);
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.card {
+  height: 100%;
 }
 
 // tablet

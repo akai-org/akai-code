@@ -7,6 +7,8 @@ import {
   Location,
   Partners,
   FAQ,
+  Mentors,
+  Schedule,
 } from ".";
 
 export function Content() {
@@ -21,6 +23,8 @@ export function Content() {
       <Registration />
       <About />
       <Location />
+      <Schedule />
+      <Mentors />
       <Partners />
       <FAQ />
     </>
