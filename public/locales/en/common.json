@@ -92,8 +92,8 @@
     "location2": "Poznan University of Technology",
     "location3": "Piotrowo Campus",
     "description1": "Politechnika stop: 13, 211, 220, 221.",
-    "description2": "Kórnicka stop: 3, 5, 6, 7, 9, 10, 12, 13, 14, 15, 17, 18, 98.",
-    "description3": "Baraniaka stop: 6, 7, 17, 98."
+    "description2": "Kórnicka stop: 6, 7, 13, 227, 231.",
+    "description3": "Baraniaka stop: 6, 7, 157, 184, 227, 231."
   },
   "partners": {
     "title": "Partners",
