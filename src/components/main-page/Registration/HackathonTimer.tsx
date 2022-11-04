@@ -19,7 +19,7 @@ const datesConfig: ConfigItem[] = [
   { unit: "s", text: "seconds", modulo: 60, className: styles.seconds },
 ];
 
-const hackathonStartDate = dayjs("2022-11-04T18:00:00+0200");
+const hackathonStartDate = dayjs("2022-11-04T17:00:00Z");
 
 export function HackathonTimer() {
   useIntervalUpdate();
