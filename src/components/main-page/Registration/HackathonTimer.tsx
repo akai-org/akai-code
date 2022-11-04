@@ -1,9 +1,9 @@
-import { useEffect, useState } from "react";
 import { useTranslation } from "next-i18next";
 import dayjs from "dayjs";
 import classNames from "classnames";
 import { Badge, Text } from "components/ui";
 import styles from "./HackathonTimer.module.scss";
+import { useIntervalUpdate } from "components/hooks/useIntervalTimer";
 
 type ConfigItem = {
   unit: "d" | "h" | "m" | "s";
@@ -44,15 +44,4 @@ export function HackathonTimer() {
       })}
     </div>
   );
-}
-
-function useIntervalUpdate(interval = 1000) {
-  const [, setState] = useState({});
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setState({});
-    }, interval);
-    return () => clearInterval(intervalId);
-  });
 }
