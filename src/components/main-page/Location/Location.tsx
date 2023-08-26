@@ -1,6 +1,5 @@
 import { Heading, Section, Icon } from "components/ui";
 import dynamic from "next/dynamic";
-import { useTranslation } from "next-i18next";
 import { bus, mapMarker } from "components/ui/Icon";
 import styles from "./Location.module.scss";
 
@@ -15,12 +14,10 @@ const LocationMap = dynamic(
 );
 
 export function Location() {
-  const { t } = useTranslation();
-
   return (
     <Section variant="blue" id="location" className={styles.section}>
       <Heading className={styles.sectionHeading} withAccent>
-        {t("location.title")}
+        Lokalizacja
       </Heading>
       <div className={styles.wrapper}>
         <LocationMap />
@@ -30,23 +27,23 @@ export function Location() {
               <Icon className={styles.icon} icon={mapMarker} />
             </div>
             <div className={styles.headingWrapper}>
-              <p className={styles.bold}>{t("location.location1")}</p>
-              <p className={styles.bold}>{t("location.location2")}</p>
-              <p>{t("location.location3")}</p>
+              <p className={styles.bold}>Lokalizacja 1</p>
+              <p className={styles.bold}>Lokalizacja 2</p>
+              <p>Lokalizacja 3</p>
             </div>
           </div>
           <div className={styles.textWrapper}>
             <p className={styles.text}>
               <Icon icon={bus} className={styles.busIcon} />
-              {t("location.description1")}
+              Opis 1
             </p>
             <p className={styles.text}>
               <Icon icon={bus} className={styles.busIcon} />
-              {t("location.description2")}
+              Opis 2
             </p>
             <p className={styles.text}>
               <Icon icon={bus} className={styles.busIcon} />
-              {t("location.description3")}
+              Opis 3
             </p>
           </div>
         </div>

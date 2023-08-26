@@ -1,5 +1,4 @@
 import { Heading, Section } from "components/ui";
-import { useTranslation } from "next-i18next";
 import styles from "./FAQ.module.scss";
 import { FAQDisclosure } from "./FAQDisclosure/FAQDisclosure";
 
@@ -14,13 +13,17 @@ interface Section {
 }
 
 export const FAQ = () => {
-  const { t } = useTranslation();
-  const sections = t("faq.sections", { returnObjects: true }) as Section[];
+  const sections = [
+    {
+      title: "Tytuł",
+      questions: [{ question: "Pytanie", answer: "Odpowiedź" }],
+    },
+  ];
 
   return (
     <Section id="faq" variant="blue">
       <Heading className={styles.heading} withAccent>
-        {t("faq.title")}
+        FAQ
       </Heading>
 
       <div>

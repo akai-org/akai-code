@@ -1,5 +1,4 @@
 import { facebook, github, linkedin, twitter } from "../Icon";
-import { useTranslation } from "next-i18next";
 import { Icon } from "components/ui";
 import styles from "./Footer.module.scss";
 
@@ -27,8 +26,6 @@ const socialIcons = [
 ] as const;
 
 export function Footer({}) {
-  const { t } = useTranslation();
-
   return (
     <footer className={styles.container}>
       <div className={styles.innerContainer}>
@@ -53,14 +50,14 @@ export function Footer({}) {
         <div className={styles.row}>
           <div>
             <p>
-              {t("footer.contact")}:{" "}
+              Kontakt:{" "}
               <a href="mailto:kontakt@akai.org.pl">kontakt@akai.org.pl</a>
             </p>
             <a href="/statute_2022.pdf" className={styles.statuteText}>
-              {t("footer.statute")}
+              Status
             </a>
           </div>
-          <p>&copy; 2022 {t("footer.akai")}</p>
+          <p>&copy; 2023 AKAI</p>
         </div>
       </div>
     </footer>

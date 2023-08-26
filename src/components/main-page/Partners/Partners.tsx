@@ -1,5 +1,4 @@
 import { Badge, Heading, Section } from "components/ui";
-import { useTranslation } from "next-i18next";
 import styles from "./Partners.module.scss";
 
 type CompanyInfo = {
@@ -14,15 +13,14 @@ interface Partners {
 }
 
 const Partners = () => {
-  const { t } = useTranslation();
-  const partners = t("partners.categories", {
-    returnObjects: true,
-  }) as Partners[];
+  const partners = [
+    { name: "AKAI", companies: [{ name: "info", logo: "_blank" }] },
+  ] as Partners[];
 
   return (
     <Section variant="white" id="partners" className={styles.section}>
       <Heading className={styles.heading} withAccent>
-        {t("partners.title")}
+        Partnerzy
       </Heading>
       <div className={styles.container}>
         {partners.map(({ name, companies }) => {
