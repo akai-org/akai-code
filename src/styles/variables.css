@@ -8,13 +8,13 @@
   --font-size-3xl: 4rem;
 
   /* ----- colors ----- */
-  --theme-primary-color-700: #2B448C;
-  --theme-primary-color-500: #3C4CA6;
-  --theme-primary-color-300: #8B88F2;
-  --text-color--primary: #F2DBAE;
-  --text-color--strong: #F28705;
-  --text-alernative-color: #FFF;
-  --text-alternative-color--strong: #F7A823;
+  --theme-primary-color-700: #2b448c;
+  --theme-primary-color-500: #3c4ca6;
+  --theme-primary-color-300: #8b88f2;
+  --color-text-primary: #f2dbae;
+  --color-text-strong: #f28705;
+  --color-text-alternative: #fff;
+  --color-text-alternative-strong: #f7a823;
   --color-grey: #d8d8d8;
   --color-black: #282828;
   --color-discord: #5865f3;
