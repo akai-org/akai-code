@@ -1,4 +1,3 @@
-import { useTranslation } from "next-i18next";
 import dayjs from "dayjs";
 import classNames from "classnames";
 import { Badge, Text } from "components/ui";
@@ -24,8 +23,6 @@ const hackathonStartDate = dayjs("2022-11-04T17:00:00Z");
 export function HackathonTimer() {
   useIntervalUpdate();
 
-  const { t } = useTranslation();
-
   const now = dayjs();
 
   return (
@@ -38,7 +35,7 @@ export function HackathonTimer() {
             <Badge color="secondary" className={styles.badge}>
               {value}
             </Badge>
-            <Text size="xl">{t(`registration.${text}`)}</Text>
+            <Text size="xl">Rejestracja {text}</Text>
           </div>
         );
       })}

@@ -1,5 +1,4 @@
 import dynamic from "next/dynamic";
-import { useTranslation } from "next-i18next";
 import { Button, Heading, Section } from "components/ui";
 import styles from "./Registration.module.scss";
 
@@ -17,18 +16,14 @@ const HackathonTimer = dynamic(
 );
 
 export function Registration() {
-  const { t } = useTranslation();
-
   return (
     <Section variant="blue" id="registration" className={styles.section}>
       <Heading className={styles.heading} withAccent>
-        {t("registration.title")}
+        AKAI Camp startuje za
       </Heading>
       <HackathonTimer />
       <div className={styles.buttonsContainer}>
-        <Button href={registrationFormURL}>
-          {t("registration.registration")}
-        </Button>
+        <Button href={registrationFormURL}>Rejestracja</Button>
       </div>
     </Section>
   );

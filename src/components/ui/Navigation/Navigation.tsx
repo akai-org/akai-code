@@ -1,30 +1,26 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useTranslation } from "next-i18next";
 import classNames from "classnames";
 import { Section } from "components/main-page/types";
 import styles from "./Navigation.module.scss";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import { locales } from "translations";
 
-type SectionConfig = { key: string; url: `#${Section}`; hidden?: boolean };
+type SectionConfig = {
+  key: string;
+  name?: string;
+  url: `#${Section}`;
+  hidden?: boolean;
+};
 const sections: readonly SectionConfig[] = [
   { key: "hero", url: "#hero", hidden: true },
-  { key: "akaiCode", url: "#event-details" },
-  { key: "registration", url: "#registration" },
-  { key: "partners", url: "#partners" },
-  { key: "faq", url: "#faq" },
+  { key: "akaiCode", name: "AKAI Camp", url: "#event-details" },
+  { key: "registration", name: "Rejestracja", url: "#registration" },
+  { key: "partners", name: "Partnerzy", url: "#partners" },
+  { key: "faq", name: "FAQ", url: "#faq" },
 ] as const;
 
 export function Navigation() {
   const [activeSection, setActiveSection] = useState<string | undefined>(
     undefined,
   );
-
-  const { t } = useTranslation();
-
-  const { query } = useRouter();
-  const activeLanguage = query?.lang === "en" ? "en" : "pl";
 
   const checkboxRef = useRef<HTMLInputElement | null>(null);
 
@@ -81,7 +77,7 @@ export function Navigation() {
           <ul className={styles.links}>
             {sections
               .filter(({ hidden }) => !hidden)
-              .map(({ key, url }) => (
+              .map(({ name, url }) => (
                 <li key={url}>
                   <a
                     href={url}
@@ -90,27 +86,10 @@ export function Navigation() {
                     })}
                     onClick={deselectNavigation}
                   >
-                    {t(`navigation.${key}`)}
+                    {name}
                   </a>
                 </li>
               ))}
-          </ul>
-          <div className={styles.separator}></div>
-          <ul className={styles.links}>
-            {locales.map((locale) => (
-              <div key={locale}>
-                <Link href={`/${locale}`}>
-                  <a
-                    className={classNames(styles.link, {
-                      [styles.active]: activeLanguage === locale,
-                    })}
-                    onClick={deselectNavigation}
-                  >
-                    {t(`language.${locale}`)}
-                  </a>
-                </Link>
-              </div>
-            ))}
           </ul>
         </div>
         <label htmlFor="nav-toggle" className={styles.hamburgerTrigger}>

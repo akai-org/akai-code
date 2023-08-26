@@ -1,11 +1,11 @@
 {
-  "title": "AKAI Code",
-  "short_name": "AKAI Code",
-  "name": "AKAI Code",
-  "description": "AKAI Code",
+  "title": "AKAI Camp 2023",
+  "short_name": "AKAI Camp 2023",
+  "name": "AKAI Camp 2023",
+  "description": "AKAI Camp 2023",
   "start_url": "/",
-  "background_color": "#03628A",
-  "theme_color": "#03628A",
+  "background_color": "#2B448C",
+  "theme_color": "#2B448C",
   "display": "standalone",
   "manifest_version": 1
 }

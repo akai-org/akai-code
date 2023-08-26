@@ -15,16 +15,16 @@ export function Content() {
   return (
     <>
       <Head>
-        <title>AKAI Code</title>
+        <title>AKAI Camp 2023</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Hero />
       <EventDetailsExtended />
       <Registration />
-      <About />
+      {/* <About /> */}
       <Location />
-      <Schedule />
-      <Mentors />
+      {/* <Schedule /> */}
+      {/* <Mentors /> */}
       <Partners />
       <FAQ />
     </>
