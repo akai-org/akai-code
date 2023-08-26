@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +12,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Quicksand, sans-serif;
+  /* TODO: We need to consider if this font fits cause imo its too infantile for business landing page :( */
+  /* font-family: 'Mali', cursive, sans-serif; */
+  font-family: 'JetBrains Mono', monospace;
 }
 
 html {
