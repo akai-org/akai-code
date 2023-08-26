@@ -8,11 +8,13 @@
   --font-size-3xl: 4rem;
 
   /* ----- colors ----- */
-  --color-orange: #f6a721;
-  --color-orange-dark: #f78923;
-  --color-blue: #03628a;
-  --color-blue-light: #6daec7;
-  --color-white: #fff;
+  --theme-primary-color-700: #2B448C;
+  --theme-primary-color-500: #3C4CA6;
+  --theme-primary-color-300: #8B88F2;
+  --text-color--primary: #F2DBAE;
+  --text-color--strong: #F28705;
+  --text-alernative-color: #FFF;
+  --text-alternative-color--strong: #F7A823;
   --color-grey: #d8d8d8;
   --color-black: #282828;
   --color-discord: #5865f3;
